@@ -1,0 +1,196 @@
+import React from "react";
+import { ProjectCard } from "./ProjectCard";
+import {
+  ElectricityProjectIcon,
+  LivelyhoodProjectIcon,
+  RemediationProjectIcon,
+  SchorlarshipProjectIcon,
+  PublicHealthProjectIcon,
+  PortableWaterProjectIcon,
+} from "./ProjectIcons";
+
+const NewsGalleryComp = () => {
+  return (
+    <>
+      <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center">
+        <div className="text-center">
+          <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
+            hyprep news
+          </h3>
+          <h2 className="text-3xl font-merriweather font-bold pb-6">
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing elit.
+          </h2>
+        </div>
+        <div className="w-full flex flex-col">
+          <div className="flex flex-col sm:flex-row justify-center gap-6 mb-4">
+            <div className="bg-noContent sm:h-[340px] sm:w-[718px] w-full h-[50vw] p-5 rounded-2xl">
+              <h5>stakeholders engagement</h5>
+              <p>OGONI CLEAN-UP: FG PROMISES EXPANDED IMPLEMENTATION</p>
+              <p>read more</p>
+            </div>
+            <div className="bg-noContent sm:h-[340px] sm:w-[415px] w-full h-[50vw] p-5 rounded-2xl">
+              <h5>stakeholders engagement</h5>
+              <p>
+                HYPREP holds seminar to dissuade Ogoni youths from illegal oil
+                bunkering and re-pollution of remediated sites.
+              </p>
+              <p>read more</p>
+            </div>
+          </div>
+          <div className="flex flex-col sm:flex-row justify-center gap-6 mb-4">
+            <div className="border border-solid bg-noContent sm:h-[340px] sm:w-[415px] w-full h-[50vw] p-5 rounded-2xl">
+              <h5>stakeholders engagement</h5>
+              <p>
+                Nigerian Government Reiterates Commitment On Hydrocarbon
+                Pollution Remediation Project
+              </p>
+              <p>read more</p>
+            </div>
+            <div className="border border-solid bg-noContent sm:h-[340px] sm:w-[718px] w-full h-[50vw] p-5 rounded-2xl">
+              <h5>stakeholders engagement</h5>
+              <p>FIRST GC MEETING WITH BARR. MOHAMMED ABDULLAHI</p>
+              <p>read more</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ABOUT HYPREP START */}
+      <section className="bg-backgroundPrimary w-full sm:h-[724px] flex sm:flex-row flex-col py-10 px-[30px] gap-6 sm:p-[137px] ">
+        <div className="text-left sm:h-[450px] sm:w-[520px]">
+          <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
+            about hyprep
+          </h3>
+          <h2 className="text-4xl font-merriweather font-bold pb-4">
+            Restoring Environmental Sustainability, Livelihoods, Security and
+            Governance in Ogoni Land.
+          </h2>
+          <p className="pb-10 text-justify">
+            HYPREP was established Under the Federal Ministry to deal with
+            issues regarding environmental pollution of soil and groundwater by
+            implementing the UNEP report. Also HYPREP is restoring Sustainable
+            livelihoods, Security and Governance in Ogoniland.
+          </p>
+          <button className="px-8 py-4 rounded-lg bg-green-700 text-white">
+            Learn More
+          </button>
+        </div>
+        <div className="rounded-2xl bg-noContent w-full h-[100vw] mb-10 sm:h-[433px] sm:w-[509px] "></div>
+      </section>
+      {/* ABOUT HYPREP END */}
+      {/* HYPREP PROJECTS START */}
+      <section className="sm:py-20 sm:px-[140px] pb-10 py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center">
+        <div className="text-center mb-10">
+          <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
+            hyprep projects
+          </h3>
+          <h2 className="text-3xl font-merriweather font-bold pb-6">
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing elit.
+          </h2>
+        </div>
+        <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
+          <ProjectCard
+            icon={<ElectricityProjectIcon />}
+            route="/hyprep-projects/electricityProject"
+            heading="Electricity Project"
+            paragraph="HYPREP ensures that Ogoni is Electrified. From Power Plants to solar lights We are taking Power to the most distant communities"
+          />
+          <ProjectCard
+            icon={<LivelyhoodProjectIcon />}
+            route="/hyprep-projects/livelihoodProgramme"
+            heading="Livelihood Program"
+            paragraph="The Livelihood program is a skills, certification and job placement program that builds capacity in youth and women and empowers them to restart their lives 
+"
+          />
+          <ProjectCard
+            icon={<RemediationProjectIcon />}
+            route="/hyprep-projects/remediation"
+            heading="Remediation"
+            paragraph="Soil and Water pollution is a primary issue HYPREP is tackling in Ogoniland following the guidance of UNEP 
+"
+          />
+        </div>
+        <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
+          <ProjectCard
+            icon={<PortableWaterProjectIcon />}
+            route="/hyprep-projects/portableWater"
+            heading="Portable Water"
+            paragraph="Bringing Portable pipe borne water to communities in the 3 LGAs who are most affected by the Water Pollution
+
+"
+          />
+          <ProjectCard
+            icon={<PublicHealthProjectIcon />}
+            route="/hyprep-projects/publicHealth"
+            heading="Public Health"
+            paragraph="HPREP brings health services to the most vulnerable demographics including Pregnant women, children and the elderly
+ 
+"
+          />
+          <ProjectCard
+            icon={<SchorlarshipProjectIcon />}
+            route="/hyprep-projects/schorlarshipProgramme"
+            heading="Scholarship"
+            paragraph="The HYPREP Scholarship program is to be instituted to assist 1000 OGONI youth yearly through Tertiary schooling
+
+"
+          />
+        </div>
+      </section>
+      {/* HYPREP PROJECTS END */}
+      {/* HYPREP PROJECT COORDINATOR START */}
+      <section className="bg-backgroundPrimary sm:py-20 sm:px-[140px] pb-10 py-10 px-[30px] w-full sm:h-[724px] flex sm:flex-row-reverse gap-6 sm:p-[137px] ">
+        <div className="text-left sm:h-[450px] sm:w-[520px]">
+          <h3 className="uppercase text-sm mb-6 text-textPrimary font-semibold">
+            PROJECT CORDINATOR
+          </h3>
+          <p className="pb-6 text-left">
+            As the World commemorates the Environment. We at HYPREP join in the
+            celebration to promote the consciousness of man’s custodianship of
+            the Earth. This was, and remains God’s mandate to man. Today we mark
+            the theme: ‘Only One Earth’, which brings into a sharp relief the
+            fact that mankind has no where else to go. This is our only home and
+            we have to make it continuously, liveable! HYPREP in carrying out
+            her mandate is poised towards making Ogoni liveable, through the
+            removal of contaminants of concern from several impacted sites which
+            dot the landscape.
+          </p>
+          <h2 className="text-3xl font-merriweather font-semibold pb-2">
+            Dr. Ferdinand Giadom Project Coordination, HYPREP
+          </h2>
+          <button className="px-8 py-4 rounded-lg bg-green-700 text-white">
+            Learn More
+          </button>
+        </div>
+        <div className="rounded-2xl bg-noContent sm:h-[433px] sm:w-[509px] "></div>
+      </section>
+      {/* HYPREP PROJECT COORDINATOR END */}
+      {/* NEWSLETTER SECTION START */}
+      <section className="pb-10 py-10 mt-20 px-[30px] w-full flex sm:p-[120px]">
+        <div className="sm:w-[1160px] w-full bg-gradient-to-r from-[#015321] to-[#00A336] sm:h-[473px] h-[100vw] text-white text-center sm:py-20 py-10 px-2 rounded-2xl flex flex-col sm:gap-16 gap-8 font-merriweather items-center justify-center ">
+          <h3>NEWSLETTERS</h3>
+          <h1 className="sm:text-4xl text-2xl font-semibold pb-2">
+            Get in touch with us by subscribing to <br /> our monthly
+            Newsletters
+          </h1>
+          <div className="sm:mb-12 mb-6 sm:w-[605px] w-[99%] flex flex-row">
+            <input
+              type="email"
+              placeholder="Enter your Email address"
+              className="bg-white sm:px-8 px-2 sm:py-5 py-3 rounded-tl-lg rounded-bl-lg border-0 sm:w-full "
+            />
+            <div className="bg-white px-2 py-2 rounded-tr-lg rounded-br-lg border-0 sm:w-[170px] w-full flex flex-col items-center justify-center ">
+              <button className="bg-green-700 sm:px-9 sm:py-3 px-5 py-2 rounded-md">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* NEWSLETTER SECTION END */}
+    </>
+  );
+};
+
+export default NewsGalleryComp;

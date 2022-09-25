@@ -1,0 +1,28 @@
+import React from "react";
+
+const BreakingNewsComp = () => {
+  return (
+    <section className="w-full flex sm:py-4 py-2 sm:gap-5 items-center">
+      <div className="z-10 bg-backgroundDark h-full px-6 py-6 sm:py-4 sm:px-10">
+        <img src="/images/brkNewsImg1.png" className="news" alt="news" />
+      </div>
+      <div className="flex flex-row justify-start sm:gap-5 w-full overflow-x-scroll slide">
+        {[1, 2].map((i) => (
+          <div
+            className="flex items-center justify-start break-words text-clip gap-8 sm:min-w-min min-w-[600px]"
+            key={i}
+          >
+            <img src="/images/brkNewsImg2.png" alt="news" />
+            <div className="break-words text-sm font-light text-clip text-white min-w-min">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, repellat. Natus temporibus nulla animi earum magni.
+              Ab hic repellendus architecto.
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default BreakingNewsComp;
