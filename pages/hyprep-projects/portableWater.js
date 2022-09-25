@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { CardTwo } from "../../components/Card-two";
 import MainLayout from "../../layout/MainLayout";
-import bg from "./portablewaterbg.png";
+import bg from "../../public/images/portablewaterbg.png";
 
 const PortableWater = () => {
   return (

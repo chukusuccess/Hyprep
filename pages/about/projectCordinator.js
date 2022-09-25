@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import MainLayout from "../../layout/MainLayout";
-import { AboutCard } from "./AboutCard";
+import { AboutCard } from "../../components/AboutCard";
 
 const ProjectCordinator = () => {
   return (
