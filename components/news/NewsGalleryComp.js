@@ -8,6 +8,10 @@ import {
   PublicHealthProjectIcon,
   PortableWaterProjectIcon,
 } from "./ProjectIcons";
+import tr from "../../public/images/topright.png";
+import tl from "../../public/images/topleft.png";
+import bl from "../../public/images/bottomleft.png";
+import br from "../../public/images/bottomright.png";
 
 const NewsGalleryComp = () => {
   return (
@@ -17,46 +21,98 @@ const NewsGalleryComp = () => {
           <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
             hyprep news
           </h3>
-          <h2 className="text-3xl font-merriweather font-bold pb-6">
+          <h2 className="text-3xl font-recoleta font-bold pb-6">
             Lorem ipsum dolor sit amet, <br />
             consectetur adipiscing elit.
           </h2>
         </div>
         <div className="w-full flex flex-col">
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-4">
-            <div className="bg-noContent sm:h-[340px] sm:w-[718px] w-full h-[50vw] p-5 rounded-2xl">
-              <h5>stakeholders engagement</h5>
-              <p>OGONI CLEAN-UP: FG PROMISES EXPANDED IMPLEMENTATION</p>
-              <p>read more</p>
+            <div
+              className="bg-noContent sm:h-[340px] sm:w-[718px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
+              style={{
+                background: `url(${tr.src})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            >
+              <h5 className="uppercase text-gray-300 font-light mb-6 p-4 bg-backgroundDark rounded-[100px] opacity-70">
+                STAKEHOLDERS ENGAGEMENT
+              </h5>
+              <p className="text-2xl font-merriweather text-white font-bold pb-6">
+                OGONI CLEAN-UP: FG PROMISES EXPANDED IMPLEMENTATION
+              </p>
+              <a className="text-green-400 font-bold text-lg underline">
+                read more
+              </a>
             </div>
-            <div className="bg-noContent sm:h-[340px] sm:w-[415px] w-full h-[50vw] p-5 rounded-2xl">
-              <h5>stakeholders engagement</h5>
-              <p>
+            <div
+              className="bg-noContent sm:h-[340px] sm:w-[415px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
+              style={{
+                background: `url(${tl.src})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            >
+              <h5 className="uppercase text-gray-300 font-light mb-6 p-4 bg-backgroundDark rounded-[100px] opacity-70">
+                uncategorized
+              </h5>
+              <p className="text-2xl font-merriweather text-white font-bold pb-6">
                 HYPREP holds seminar to dissuade Ogoni youths from illegal oil
                 bunkering and re-pollution of remediated sites.
               </p>
-              <p>read more</p>
+              <a className="text-green-400 font-bold text-lg underline">
+                read more
+              </a>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-4">
-            <div className="border border-solid bg-noContent sm:h-[340px] sm:w-[415px] w-full h-[50vw] p-5 rounded-2xl">
-              <h5>stakeholders engagement</h5>
-              <p>
+            <div
+              className="border border-solid bg-noContent sm:h-[340px] sm:w-[415px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
+              style={{
+                background: `url(${br.src})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            >
+              <h5 className="uppercase text-gray-300 font-light mb-6 p-4 bg-backgroundDark rounded-[100px] opacity-70">
+                uncategorized
+              </h5>
+              <p className="text-2xl font-merriweather text-white font-bold pb-6">
                 Nigerian Government Reiterates Commitment On Hydrocarbon
                 Pollution Remediation Project
               </p>
-              <p>read more</p>
+              <a className="text-green-400 font-bold text-lg underline">
+                read more
+              </a>
             </div>
-            <div className="border border-solid bg-noContent sm:h-[340px] sm:w-[718px] w-full h-[50vw] p-5 rounded-2xl">
-              <h5>stakeholders engagement</h5>
-              <p>FIRST GC MEETING WITH BARR. MOHAMMED ABDULLAHI</p>
-              <p>read more</p>
+            <div
+              className="border border-solid bg-noContent sm:h-[340px] sm:w-[718px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
+              style={{
+                background: `url(${bl.src})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            >
+              <h5 className="uppercase text-gray-300 font-light mb-6 p-4 bg-backgroundDark rounded-[100px] opacity-70">
+                uncategorized
+              </h5>
+              <p className="text-2xl font-merriweather text-white font-bold pb-6">
+                FIRST GC MEETING WITH BARR. MOHAMMED ABDULLAHI
+              </p>
+              <a className="text-green-400 font-bold text-lg underline">
+                read more
+              </a>
             </div>
           </div>
         </div>
       </section>
       {/* ABOUT HYPREP START */}
-      <section className="bg-backgroundPrimary w-full sm:h-[724px] flex sm:flex-row flex-col py-10 px-[30px] gap-6 sm:p-[137px] ">
+      <section className="bg-backgroundPrimary w-full sm:h-[724px] flex sm:flex-row justify-center flex-col py-10 px-[30px] gap-6 sm:p-[137px] ">
         <div className="text-left sm:h-[450px] sm:w-[520px]">
           <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
             about hyprep
@@ -65,7 +121,7 @@ const NewsGalleryComp = () => {
             Restoring Environmental Sustainability, Livelihoods, Security and
             Governance in Ogoni Land.
           </h2>
-          <p className="pb-10 text-justify">
+          <p className="pb-10 text-left">
             HYPREP was established Under the Federal Ministry to deal with
             issues regarding environmental pollution of soil and groundwater by
             implementing the UNEP report. Also HYPREP is restoring Sustainable
@@ -140,7 +196,7 @@ const NewsGalleryComp = () => {
       </section>
       {/* HYPREP PROJECTS END */}
       {/* HYPREP PROJECT COORDINATOR START */}
-      <section className="bg-backgroundPrimary sm:py-20 sm:px-[140px] pb-10 py-10 px-[30px] w-full sm:h-[724px] flex sm:flex-row-reverse gap-6 sm:p-[137px] ">
+      <section className="bg-backgroundPrimary sm:py-20 sm:px-[140px] justify-center pb-10 py-10 px-[30px] w-full sm:h-[724px] flex sm:flex-row-reverse gap-6 sm:p-[137px] ">
         <div className="text-left sm:h-[450px] sm:w-[520px]">
           <h3 className="uppercase text-sm mb-6 text-textPrimary font-semibold">
             PROJECT CORDINATOR
@@ -167,7 +223,7 @@ const NewsGalleryComp = () => {
       </section>
       {/* HYPREP PROJECT COORDINATOR END */}
       {/* NEWSLETTER SECTION START */}
-      <section className="pb-10 py-10 mt-20 px-[30px] w-full flex sm:p-[120px]">
+      <section className="pb-10 py-10 mt-20 px-[30px] w-full flex flex-row justify-center sm:p-[120px]">
         <div className="sm:w-[1160px] w-full bg-gradient-to-r from-[#015321] to-[#00A336] sm:h-[473px] h-[100vw] text-white text-center sm:py-20 py-10 px-2 rounded-2xl flex flex-col sm:gap-16 gap-8 font-merriweather items-center justify-center ">
           <h3>NEWSLETTERS</h3>
           <h1 className="sm:text-4xl text-2xl font-semibold pb-2">

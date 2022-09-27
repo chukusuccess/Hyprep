@@ -17,7 +17,7 @@ const GoverningCouncil = () => {
               </h2>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 GOVERNING COUNCIL
@@ -25,7 +25,7 @@ const GoverningCouncil = () => {
               <h2 className="text-3xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </h2>
-              <p className="text-justify">
+              <p className="text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 vitae proin interdum vivamus venenatis eu. Netus nisl magna
                 volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
@@ -46,7 +46,7 @@ const GoverningCouncil = () => {
               <h2 className="text-4xl font-merriweather font-bold pb-4">
                 Mohammed H. Abdullahi
               </h2>
-              <p className="pb-10 text-justify">
+              <p className="pb-10 text-left">
                 Mohammed H. Abdullahi was born on 21st April, 1968 at Uke in
                 Karu Local Government Area of Nasarawa State. He had his primary
                 education at Uke Central Primary School and Government Secondary
@@ -61,63 +61,95 @@ const GoverningCouncil = () => {
               <div className="rounded-2xl bg-noContent w-[50%] h-[50vw]"></div>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
-            <p className="text-justify mb-10">
-              Mr. Abdullahi started his Legal Career with Messrs Ola Olanipekun
-              & Co. (Prime Chambers) as an Associate Attorney (1992 – 1994)
-              shortly after his compulsory National Youth Service Corps Scheme
-              (NYSC) with Messrs Ukpabi, Ukpabi & Co. (Legal Practitioners) in
-              Enugu from 1991-1992. Mr. Abdullahi’s career span almost three
-              decades in both the Private and Public Sectors which includes
-              being a founding partner in the law firm of Messrs Hammart & Co.
-              (Tafida Chambers) from 1994 to date, Chairman – Karu Local
-              Government Council (Nasarawa State) in 1996, Deputy General
-              Manager/Company Secretary Nasarawa Investment & Property
-              Development Company, Lafia – 2000-2002; Attorney
-              General/Commissioner for Justice, Nasarawa State (2003-2005),
-              Group Company Secretary/Legal Adviser, Transnational Corporation
-              of Nigeria Plc (Transcorp) from 2006 – 2008, Vice
-              President/Executive (Administration & Regulatory, Intercell Tech
-              Limited, 2008 -2011. Mr Abdullahi was re-appointed Attorney
-              General/Commissioner for Justice – Nasarawa State, 2011- 2013 and
-              later became Special Adviser on Special Duties where he
-              superintended the Nasarawa State Government 30 Billion Bond
-              Issuance Programme (1st Tranche) and also supervised the
-              Investment portfolio of the State, he also served as the Secretary
-              to the State Government (SSG) of Nasarawa State from 2017 – 2019.
-              Until his appointment as Hon Minister by President Muhammadu
-              Buhari, he was the minister of state for Federal Ministry of
-              Science, Technology and Innovation. He is a member of both the
-              Nigerian (NBA) and International Bar Association (IBA).​
-            </p>
-          </section>
-          <section className="flex flex-grow flex-col w-full bg-white sm:py-20 sm:px-[140px] py-10 px-[30px] items-center justify-center">
-            <div className="text-left w-full">
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
-                Composition of the Governing
-                <br /> Council
-              </h2>
-              <p className="text-left pb-6">
-                The Governing Council consists of:
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
+            <div>
+              <p className="text-left mb-10">
+                Mr. Abdullahi started his Legal Career with Messrs Ola
+                Olanipekun & Co. (Prime Chambers) as an Associate Attorney (1992
+                – 1994) shortly after his compulsory National Youth Service
+                Corps Scheme (NYSC) with Messrs Ukpabi, Ukpabi & Co. (Legal
+                Practitioners) in Enugu from 1991-1992. Mr. Abdullahi’s career
+                span almost three decades in both the Private and Public Sectors
+                which includes being a founding partner in the law firm of
+                Messrs Hammart & Co. (Tafida Chambers) from 1994 to date,
+                Chairman – Karu Local Government Council (Nasarawa State) in
+                1996, Deputy General Manager/Company Secretary Nasarawa
+                Investment & Property Development Company, Lafia – 2000-2002;
+                Attorney General/Commissioner for Justice, Nasarawa State
+                (2003-2005), Group Company Secretary/Legal Adviser,
+                Transnational Corporation of Nigeria Plc (Transcorp) from 2006 –
+                2008, Vice President/Executive (Administration & Regulatory,
+                Intercell Tech Limited, 2008 -2011. Mr Abdullahi was
+                re-appointed Attorney General/Commissioner for Justice –
+                Nasarawa State, 2011- 2013 and later became Special Adviser on
+                Special Duties where he superintended the Nasarawa State
+                Government 30 Billion Bond Issuance Programme (1st Tranche) and
+                also supervised the Investment portfolio of the State, he also
+                served as the Secretary to the State Government (SSG) of
+                Nasarawa State from 2017 – 2019. Until his appointment as Hon
+                Minister by President Muhammadu Buhari, he was the minister of
+                state for Federal Ministry of Science, Technology and
+                Innovation. He is a member of both the Nigerian (NBA) and
+                International Bar Association (IBA).​
               </p>
             </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-            </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-            </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
+          </section>
+          <section className="flex flex-grow flex-col w-full bg-white sm:py-20 sm:px-[140px] py-10 px-[30px] items-center justify-center">
+            <div>
+              <div className="text-left w-full">
+                <h2 className="text-3xl font-merriweather font-bold pb-6">
+                  Composition of the Governing
+                  <br /> Council
+                </h2>
+                <p className="text-left pb-6">
+                  The Governing Council consists of:
+                </p>
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
               <h2 className="text-3xl font-merriweather font-bold pb-6">
                 Functions of the Board of the Board of Trustee (BOT)

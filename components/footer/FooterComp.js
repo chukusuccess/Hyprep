@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faTwitter,
@@ -10,12 +9,12 @@ import {
 
 const FooterComp = () => {
   return (
-    <section className="w-full bg-backgroundDark mt-40 sm:h-[724px]">
+    <section className="w-full bg-backgroundDark mt-40 sm:h-[650px]">
       <div className="sm:w-full sm:h-[73px] hidden sm:flex bg-white">
-        <div className="sm:w-[556px] sm:ml-[120px] sm:h-full bg-noContent"></div>
+        <div className="sm:w-[450px] sm:ml-[80px] sm:h-full bg-noContent"></div>
       </div>
-      <div className="sm:w-full sm:h-[527px] flex w-full h-full sm:flex-row flex-col">
-        <div className="sm:w-[556px] sm:ml-[120px] sm:h-full flex flex-col sm:gap-10 gap-5 font-merriweather font-light text-white bg-noContent text-left p-12">
+      <div className="sm:w-full sm:h-[500px] flex w-full h-full sm:flex-row flex-col">
+        <div className="sm:w-[450px] sm:ml-[80px] sm:h-full flex flex-col sm:gap-10 gap-5 font-merriweather font-light text-white bg-noContent text-left p-12">
           <h1 className="text-3xl">FRAUD ALERT !!!</h1>
           <p>
             The public is hereby warned to beware of fraudsters hiding under the
@@ -33,7 +32,7 @@ const FooterComp = () => {
             Harcourt for any enquiries.
           </p>
         </div>
-        <div className="sm:w-[400px] sm:ml-[120px] sm:py-24 py-12 flex flex-row justify-center sm:gap-24 gap-12 text-lg font-merriweather sm:h-full">
+        <div className="sm:w-[400px] w-full sm:ml-[80px] sm:py-24 py-12 px-12 flex flex-row sm:justify-center justify-between sm:gap-12 text-lg font-merriweather sm:h-full">
           <div className="text-white flex flex-col gap-3">
             <h1 className="text-2xl font-bold">Quick Links</h1>
             <p>About us</p>
@@ -65,7 +64,7 @@ const FooterComp = () => {
           </div>
         </div>
       </div>
-      <div className="sm:w-full sm:h-[120px] w-full h-[60px] text-center px-10 pb-24 flex flex-row items-center justify-center text-white sm:text-1xl text-sm sm:font-semibold font-light font-merriweather">
+      <div className="sm:w-full w-full h-[10px] text-center px-10 py-10 flex flex-row items-center justify-center text-white sm:text-1xl text-sm sm:font-semibold font-light font-merriweather">
         Copyright © All rights reserved. | Newsium by AF themes.
       </div>
     </section>

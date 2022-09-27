@@ -50,7 +50,7 @@ const Reports = () => {
                 </div>
               </div>
             </div>
-            <p className="text-justify">
+            <p className="text-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
               vitae proin interdum vivamus venenatis eu. Netus nisl magna
               volutpat volutpat est, arcu ultricies eu. Tempus sagittis, varius

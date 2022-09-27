@@ -17,6 +17,7 @@ module.exports = {
       fontFamily: {
         merriweather: "Merriweather",
         poppins: "Poppins",
+        recoleta: "Averia Serif Libre",
       },
     },
   },

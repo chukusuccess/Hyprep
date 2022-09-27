@@ -31,7 +31,7 @@ const PortableWater = () => {
           <section className="sm:py-32 sm:px-[140px] py-16 px-[30px] items-center w-full bg-white flex flex-col">
             <div className="sm:w-[1155px] sm:h-[372px] w-full h-[50vw] bg-noContent rounded-2xl "></div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 PORTABLE WATER
@@ -40,7 +40,7 @@ const PortableWater = () => {
                 Lorem ipsum dolor sit amet,
                 <br /> consectetur adipiscing elit.
               </h2>
-              <p className="text-justify">
+              <p className="text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 vitae proin interdum vivamus venenatis eu. Netus nisl magna
                 volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
@@ -88,8 +88,8 @@ const PortableWater = () => {
               </p>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center">
-            <div className="sm:h-[663px] h-[331px] w-full flex flex-row-reverse sm:gap-[35px] gap-[17px]">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center">
+            <div className="sm:h-[663px] h-[331px] w-full flex flex-row-reverse items-center justify-center sm:gap-[35px] gap-[17px]">
               {/* this div below is for the mobile image */}
               <div className="sm:hidden h-full sm:w-[479px] w-[100%] rounded-2xl bg-noContent"></div>
               {/* the div below is for desktop images */}
@@ -100,8 +100,8 @@ const PortableWater = () => {
               </div>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
-            <p className="text-justify mb-10">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
+            <p className="text-left mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
               vitae proin interdum vivamus venenatis eu. Netus nisl magna
               volutpat volutpat est, arcu ultricies eu. Tempus sagittis, varius
@@ -146,7 +146,7 @@ const PortableWater = () => {
               faucibus. Sit viverra vitae tellus nunc commodo, lectus.
             </p>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center justify-center">
             <div className="text-center mb-20">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 portable water reports

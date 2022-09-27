@@ -17,7 +17,7 @@ const AboutHyprep = () => {
               </h2>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center text-black">
             <div className="text-left">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 ABOUT HYPREP
@@ -26,7 +26,7 @@ const AboutHyprep = () => {
                 Restoring Environmental SUSTAINABILITY, LIVELIHOODS, <br />{" "}
                 SECURITY AND GOVERNANCE IN OGONI LAND
               </h2>
-              <p className="text-justify">
+              <p className="text-left">
                 HYPREP was established under the Federal Ministry of Environment
                 to achieve the under listed objectives in Ogoniland and other
                 impacted communities:
@@ -67,7 +67,7 @@ const AboutHyprep = () => {
               <h2 className="text-4xl font-merriweather font-bold pb-4">
                 Chairman Board of Trustees (HYPREP)
               </h2>
-              <p className="pb-10 text-justify">
+              <p className="pb-10 text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 vitae proin interdum vivamus venenatis eu. Netus nisl magna
                 volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
@@ -82,33 +82,62 @@ const AboutHyprep = () => {
               <div className="rounded-2xl bg-noContent w-[50%] h-[50vw]"></div>
             </div>
           </section>
-          <section className="flex flex-grow flex-col w-full bg-backgroundPrimary sm:py-20 sm:px-[140px] py-10 px-[30px] items-center justify-center">
-            <div className="text-left w-full">
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
-                Composition of the Board of
-                <br /> Trustees
-              </h2>
-              <p className="text-left pb-6">
-                The Board of Trustees (BOT) shall consist of the following;
-              </p>
-            </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-            </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-            </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
+          <section className="flex flex-col w-full bg-backgroundPrimary sm:py-20 sm:px-[140px] py-10 px-[30px] items-center justify-center">
+            <div>
+              <div className="text-left w-full">
+                <h2 className="text-3xl font-merriweather font-bold pb-6">
+                  Composition of the Board of
+                  <br /> Trustees
+                </h2>
+                <p className="text-left pb-6">
+                  The Board of Trustees (BOT) shall consist of the following;
+                </p>
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
               <h2 className="text-3xl font-merriweather font-bold pb-6">
                 Functions of the Board of the Board of Trustee (BOT)

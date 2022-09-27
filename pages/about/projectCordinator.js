@@ -17,7 +17,7 @@ const ProjectCordinator = () => {
               </h2>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 PROJECT CORDINATION OFFICE
@@ -25,7 +25,7 @@ const ProjectCordinator = () => {
               <h2 className="text-3xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </h2>
-              <p className="text-justify">
+              <p className="text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 vitae proin interdum vivamus venenatis eu. Netus nisl magna
                 volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
@@ -46,7 +46,7 @@ const ProjectCordinator = () => {
               <h2 className="text-4xl font-merriweather font-bold pb-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </h2>
-              <p className="pb-10 text-justify">
+              <p className="pb-10 text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
                 vitae proin interdum vivamus venenatis eu. Netus nisl magna
                 volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
@@ -60,8 +60,8 @@ const ProjectCordinator = () => {
               <div className="rounded-2xl bg-noContent w-[50%] h-[50vw]"></div>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
-            <p className="text-justify mb-10">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
+            <p className="text-left mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
               vitae proin interdum vivamus venenatis eu. Netus nisl magna
               volutpat volutpat est, arcu ultricies eu. Tempus sagittis, varius
@@ -94,32 +94,61 @@ const ProjectCordinator = () => {
             </p>
           </section>
           <section className="flex flex-grow flex-col w-full bg-white sm:py-20 sm:px-[140px] py-10 px-[30px] items-center justify-center">
-            <div className="text-left w-full">
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
-                Composition of the Governing
-                <br /> Council
-              </h2>
-              <p className="text-left pb-6">
-                The Governing Council consists of:
-              </p>
-            </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-            </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-            </div>
-            <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
-              <AboutCard header="Belema George" paragraph="Product Designer" />
+            <div>
+              <div className="text-left w-full">
+                <h2 className="text-3xl font-merriweather font-bold pb-6">
+                  Composition of the Governing
+                  <br /> Council
+                </h2>
+                <p className="text-left pb-6">
+                  The Governing Council consists of:
+                </p>
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
+              <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10 w-full">
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+                <AboutCard
+                  header="Belema George"
+                  paragraph="Product Designer"
+                />
+              </div>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col text-black">
+          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
               <h2 className="text-3xl font-merriweather font-bold pb-6">
                 Functions of the Board of the Board of Trustee (BOT)
