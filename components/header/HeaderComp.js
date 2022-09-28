@@ -19,7 +19,7 @@ const HeaderComp = () => {
     <header className="bg-backgroundDark sm:p-3 sm:px-20 fixed z-50 w-full">
       <nav className="w-full flex items-center sm:justify-between">
         <div className="hidden sm:flex">
-          <img src="/images/logo.svg" className="w-[4rem]" alt="" />
+          <img src="/images/logo.svg" className="w-[4rem]" alt="logo" />
         </div>
         <div className="hidden sm:flex">
           <ul className="inline-flex text-white gap-8 text-sm cursor-pointer">
