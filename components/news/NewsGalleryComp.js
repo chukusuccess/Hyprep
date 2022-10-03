@@ -20,7 +20,7 @@ const NewsGalleryComp = () => {
     <>
       <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center">
         <div className="text-center">
-          <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
+          <h3 className="uppercase text-base mb-5 text-textPrimary font-semibold">
             hyprep news
           </h3>
           <h2 className="text-3xl font-recoleta font-bold pb-6">
