@@ -4,11 +4,11 @@ import { Button } from "../button/Button";
 const HeroComp = () => {
   return (
     <section className="flex w-full sm:px-20 px-6">
-      <div className="flex-grow space-y-6">
-        <h2 className="uppercase text-sm mb-2 text-[#00FF64] font-bold">
+      <div className="flex-grow space-y-6 mt-12">
+        <h2 className="uppercase text-base mb-2 text-[#00FF64]">
           federal ministry of environment
         </h2>
-        <h1 className="text-4xl text-white font-merriweather">
+        <h1 className="text-5xl text-white font-merriweather font-semibold">
           Hydrocarbon Pollution Remediation Project (HYPREP)
         </h1>
         <div className="flex gap-4">

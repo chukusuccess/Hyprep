@@ -26,6 +26,9 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .dropdown {
