@@ -300,7 +300,7 @@ const NewsGalleryComp = () => {
             <input
               type="email"
               placeholder="Email address"
-              className="bg-white sm:px-8 px-2 sm:py-5 py-3 rounded-tl-lg rounded-bl-lg border-0 sm:w-full "
+              className="bg-white sm:px-8 px-2 sm:py-5 py-3 rounded-tl-lg rounded-bl-lg border-0 w-full sm:w-full "
             />
             <div className="bg-white px-2 py-2 rounded-tr-lg rounded-br-lg border-0 sm:w-[170px] w-full flex flex-col items-center justify-center ">
               <button className="bg-green-700 sm:px-9 sm:py-3 px-5 py-2 rounded-md">
