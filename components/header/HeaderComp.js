@@ -16,19 +16,19 @@ const HeaderComp = () => {
   };
 
   return (
-    <header className="bg-backgroundDark sm:p-3 sm:px-20 fixed z-50 w-full">
+    <header className="bg-backgroundDark font-merriweather sm:p-3 sm:py-6 sm:px-20 fixed z-50 w-full">
       <nav className="w-full flex items-center sm:justify-between">
         <div className="hidden sm:flex">
-          <img src="/images/logo.svg" className="w-[4rem]" alt="logo" />
+          <img src="/images/logo.svg" className="w-[5rem]" alt="logo" />
         </div>
         <div className="hidden sm:flex">
           <ul className="inline-flex text-white gap-8 text-sm cursor-pointer">
-            <li className="capitalize mx-2 hover:text-green-600 active:text-green-600">
+            <li className="capitalize mx-2 hover:text-green-600 sm:text-xl active:text-green-600">
               <Link href="/">
                 <a>Home</a>
               </Link>
             </li>
-            <li className="capitalize mx-2 dropdown hover:text-green-600 active:text-green-600">
+            <li className="capitalize mx-2 dropdown sm:text-xl hover:text-green-600 active:text-green-600">
               <a className="dropbtn">About Us</a>
               <ul className="dropdown-content">
                 <li>
@@ -48,7 +48,7 @@ const HeaderComp = () => {
                 </li>
               </ul>
             </li>
-            <li className="capitalize mx-2 dropdown hover:text-green-600 active:text-green-600">
+            <li className="capitalize mx-2 dropdown sm:text-xl hover:text-green-600 active:text-green-600">
               <a className="dropbtn">Projects</a>
               <ul className="dropdown-content">
                 <li>
@@ -83,12 +83,12 @@ const HeaderComp = () => {
                 </li>
               </ul>
             </li>
-            <li className="capitalize mx-2 list-none text-white hover:text-green-600">
+            <li className="capitalize mx-2 list-none sm:text-xl text-white hover:text-green-600">
               <Link href="/reports">
                 <a>Reports</a>
               </Link>
             </li>
-            <li className="capitalize mx-2 dropdown hover:text-green-600 active:text-green-600">
+            <li className="capitalize mx-2 dropdown sm:text-xl hover:text-green-600 active:text-green-600">
               <a className="dropbtn">News</a>
               <ul className="dropdown-content">
                 <li>
@@ -113,19 +113,19 @@ const HeaderComp = () => {
                 </li>
               </ul>
             </li>
-            <li className="capitalize mx-2 hover:text-green-600 active:text-green-600">
+            <li className="capitalize mx-2 sm:text-xl hover:text-green-600 active:text-green-600">
               Media
             </li>
-            <li className="capitalize mx-2 hover:text-green-600 active:text-green-600">
+            <li className="capitalize mx-2 sm:text-xl hover:text-green-600 active:text-green-600">
               Contact Us
             </li>
           </ul>
         </div>
-        <div className="hidden sm:inline-flex space-x-2 cursor-pointer">
-          <FontAwesomeIcon icon={faSearch} width={20} color="white" />
-          <FontAwesomeIcon icon={faFacebook} width={20} color="white" />
-          <FontAwesomeIcon icon={faTwitter} width={20} color="white" />
-          <FontAwesomeIcon icon={faInstagram} width={20} color="white" />
+        <div className="hidden sm:inline-flex sm:text-3xl space-x-2 cursor-pointer">
+          <FontAwesomeIcon icon={faSearch} width={35} color="white" />
+          <FontAwesomeIcon icon={faFacebook} width={35} color="white" />
+          <FontAwesomeIcon icon={faTwitter} width={35} color="white" />
+          <FontAwesomeIcon icon={faInstagram} width={35} color="white" />
         </div>
         {/* DESKTOP NAV DIV ENDS HERE */}
         {/*  */}
