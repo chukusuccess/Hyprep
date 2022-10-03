@@ -209,3 +209,93 @@ export const SchorlarshipProjectIcon = () => {
     </svg>
   );
 };
+
+export const CenterOfExcellenceIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="69"
+      height="69"
+      fill="none"
+      viewBox="0 0 69 69"
+    >
+      <rect width="68.074" height="68.074" fill="#ECF5EF" rx="17.018"></rect>
+      <path
+        fillRule="evenodd"
+        stroke="#016729"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3.5"
+        d="M34 51.375c2.818 0 7.637-3.675 7.637-18.375S36.818 14.625 34 14.625c-2.818 0-7.636 3.923-7.636 18.375S31.182 51.375 34 51.375z"
+        clipRule="evenodd"
+      ></path>
+      <path
+        fillRule="evenodd"
+        stroke="#016729"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3.5"
+        d="M17.467 42.625c1.41 2.46 7.125 4.743 20.352-2.957 13.226-7.7 14.124-13.832 12.715-16.293-1.41-2.46-7.348-4.614-20.352 2.956-13.004 7.57-14.124 13.833-12.715 16.294z"
+        clipRule="evenodd"
+      ></path>
+      <path
+        fillRule="evenodd"
+        stroke="#016729"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3.5"
+        d="M17.467 23.375c-1.409 2.46-.511 8.593 12.715 16.293 13.227 7.7 18.943 5.418 20.352 2.957 1.409-2.46.288-8.723-12.715-16.294-13.004-7.57-18.943-5.417-20.352-2.956z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
+  );
+};
+
+export const CottageHospitalIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="69"
+      height="69"
+      fill="none"
+      viewBox="0 0 69 69"
+    >
+      <rect width="68.074" height="68.074" fill="#ECF5EF" rx="17.018"></rect>
+      <g clipPath="url(#clip0_455_1322)">
+        <path
+          fill="#016729"
+          fillRule="evenodd"
+          d="M33.453 16.568a.875.875 0 011.094 0L47.43 26.875h2.319v5.25h-31.5v-5.25h2.319l12.883-10.307h.001zm1.422 4.182v1.75h1.75v1.75h-1.75V26h-1.75v-1.75h-1.75V22.5h1.75v-1.75h1.75zM34 33.875a3.5 3.5 0 00-3.5 3.5v7h-5.25v-3.5H23.5v-7H20v7h-1.75v3.5H16.5v5.25h35v-5.25h-1.75v-3.5H48v-7h-3.5v7h-1.75v3.5H37.5v-7a3.5 3.5 0 00-3.5-3.5zm0 1.75a1.75 1.75 0 011.75 1.75v7h-3.5v-7a1.75 1.75 0 011.75-1.75z"
+          clipRule="evenodd"
+        ></path>
+      </g>
+      <defs>
+        <clipPath id="clip0_455_1322">
+          <path
+            fill="#fff"
+            d="M0 0H42V42H0z"
+            transform="matrix(-1 0 0 1 55 12)"
+          ></path>
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+
+export const SpecialistHospitalIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="69"
+      height="69"
+      fill="none"
+      viewBox="0 0 69 69"
+    >
+      <rect width="68.074" height="68.074" fill="#ECF5EF" rx="17.018"></rect>
+      <path
+        fill="#016729"
+        d="M31.375 34.75H27V29.5h4.375v-4.375h5.25V29.5H41v5.25h-4.375v4.375h-5.25V34.75zM34 15.5l-14 5.25v10.657c0 8.838 5.968 17.08 14 19.093 8.032-2.013 14-10.255 14-19.093V20.75L34 15.5z"
+      ></path>
+    </svg>
+  );
+};

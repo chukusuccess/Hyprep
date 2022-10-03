@@ -9,12 +9,12 @@ import {
 
 const FooterComp = () => {
   return (
-    <section className="w-full bg-backgroundDark mt-40 sm:h-[650px]">
+    <section className="w-full bg-backgroundDark sm:h-[650px]">
       <div className="sm:w-full sm:h-[73px] hidden sm:flex bg-white">
         <div className="sm:w-[450px] sm:ml-[80px] sm:h-full bg-noContent"></div>
       </div>
       <div className="sm:w-full sm:h-[500px] flex w-full h-full sm:flex-row flex-col">
-        <div className="sm:w-[450px] sm:ml-[80px] sm:h-full flex flex-col sm:gap-10 gap-5 font-merriweather font-light text-white bg-noContent text-left p-12">
+        <div className="sm:w-[450px] sm:ml-[80px] sm:h-full flex flex-col gap-5 font-poppins font-light text-white bg-noContent text-left p-12">
           <h1 className="text-3xl">FRAUD ALERT !!!</h1>
           <p>
             The public is hereby warned to beware of fraudsters hiding under the

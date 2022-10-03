@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { ProjectCard } from "./ProjectCard";
 import {
   ElectricityProjectIcon,
@@ -7,6 +8,9 @@ import {
   SchorlarshipProjectIcon,
   PublicHealthProjectIcon,
   PortableWaterProjectIcon,
+  CenterOfExcellenceIcon,
+  CottageHospitalIcon,
+  SpecialistHospitalIcon,
 } from "./ProjectIcons";
 import tr from "../../public/images/topright.png";
 import tl from "../../public/images/topleft.png";
@@ -14,6 +18,7 @@ import bl from "../../public/images/bottomleft.png";
 import br from "../../public/images/bottomright.png";
 import es from "../../public/images/es.png";
 import df from "../../public/images/df.png";
+import bg from "../../public/images/newsletter.png";
 
 const NewsGalleryComp = () => {
   return (
@@ -23,7 +28,7 @@ const NewsGalleryComp = () => {
           <h3 className="uppercase text-base mb-5 text-textPrimary font-semibold">
             hyprep news
           </h3>
-          <h2 className="text-3xl font-recoleta font-bold pb-6">
+          <h2 className="text-3xl sm:text-4xl font-poppins font-semibold pb-6">
             Lorem ipsum dolor sit amet, <br />
             consectetur adipiscing elit.
           </h2>
@@ -39,10 +44,10 @@ const NewsGalleryComp = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h5 className="uppercase text-gray-300 font-light sm:mb-6 mb-4 sm:p-4 p-2 bg-backgroundDark rounded-[100px] opacity-70">
+              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70">
                 STAKEHOLDERS ENGAGEMENT
               </h5>
-              <p className="sm:text-2xl text-xl font-merriweather text-white font-bold sm:pb-6 pb-3">
+              <p className="sm:text-xl text-lg font-merriweather text-white sm:pb-6 pb-3">
                 OGONI CLEAN-UP: FG PROMISES EXPANDED IMPLEMENTATION
               </p>
               <a className="text-green-400 font-bold text-lg underline">
@@ -51,6 +56,7 @@ const NewsGalleryComp = () => {
             </div>
             <div
               className="bg-noContent sm:h-[340px] sm:w-[415px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
+              onMouseOver="this.style.background='none'"
               style={{
                 background: `url(${tl.src})`,
                 backgroundPosition: "center",
@@ -58,10 +64,10 @@ const NewsGalleryComp = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h5 className="uppercase text-gray-300 font-light sm:mb-6 mb-4 sm:p-4 p-2 bg-backgroundDark rounded-[100px] opacity-70">
+              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70">
                 uncategorized
               </h5>
-              <p className="sm:text-2xl text-xl font-merriweather text-white font-bold sm:pb-6 pb-3">
+              <p className="sm:text-xl text-lg font-merriweather text-white sm:pb-6 pb-3">
                 HYPREP holds seminar to dissuade Ogoni youths from illegal oil
                 bunkering and re-pollution of remediated sites.
               </p>
@@ -80,10 +86,10 @@ const NewsGalleryComp = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h5 className="uppercase text-gray-300 font-light sm:mb-6 mb-4 sm:p-4 p-2 bg-backgroundDark rounded-[100px] opacity-70">
+              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70">
                 uncategorized
               </h5>
-              <p className="sm:text-2xl text-xl font-merriweather text-white font-bold sm:pb-6 pb-3">
+              <p className="sm:text-xl text-lg font-merriweather text-white sm:pb-6 pb-3">
                 Nigerian Government Reiterates Commitment On Hydrocarbon
                 Pollution Remediation Project
               </p>
@@ -100,10 +106,10 @@ const NewsGalleryComp = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h5 className="uppercase text-gray-300 font-light sm:mb-6 mb-4 sm:p-4 p-2 bg-backgroundDark rounded-[100px] opacity-70">
+              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70">
                 uncategorized
               </h5>
-              <p className="sm:text-2xl text-xl font-merriweather text-white font-bold sm:pb-6 pb-3">
+              <p className="sm:text-xl text-lg font-merriweather text-white sm:pb-6 pb-3">
                 FIRST GC MEETING WITH BARR. MOHAMMED ABDULLAHI
               </p>
               <a className="text-green-400 font-bold text-lg underline">
@@ -114,9 +120,9 @@ const NewsGalleryComp = () => {
         </div>
       </section>
       {/* ABOUT HYPREP START */}
-      <section className="bg-backgroundPrimary w-full sm:h-[724px] flex sm:flex-row justify-center flex-col py-10 px-[30px] gap-6 sm:p-[137px] ">
+      <section className="bg-backgroundPrimary w-full sm:py-14 flex sm:flex-row justify-center items-center flex-col py-10 px-[30px] gap-6">
         <div className="text-left sm:h-[450px] sm:w-[520px]">
-          <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
+          <h3 className="uppercase text-base mb-5 text-textPrimary font-semibold">
             about hyprep
           </h3>
           <h2 className="text-4xl font-merriweather font-bold pb-4">
@@ -145,9 +151,9 @@ const NewsGalleryComp = () => {
       </section>
       {/* ABOUT HYPREP END */}
       {/* HYPREP PROJECTS START */}
-      <section className="sm:py-20 sm:px-[140px] pb-10 py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center">
+      <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center">
         <div className="text-center mb-10">
-          <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
+          <h3 className="uppercase text-base mb-5 text-textPrimary font-semibold">
             hyprep projects
           </h3>
           <h2 className="text-3xl font-merriweather font-bold pb-6">
@@ -156,12 +162,6 @@ const NewsGalleryComp = () => {
           </h2>
         </div>
         <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
-          <ProjectCard
-            icon={<ElectricityProjectIcon />}
-            route="/hyprep-projects/electricityProject"
-            heading="Electricity Project"
-            paragraph="HYPREP ensures that Ogoni is Electrified. From Power Plants to solar lights We are taking Power to the most distant communities"
-          />
           <ProjectCard
             icon={<LivelyhoodProjectIcon />}
             route="/hyprep-projects/livelihoodProgramme"
@@ -194,21 +194,52 @@ const NewsGalleryComp = () => {
  
 "
           />
-          <ProjectCard
-            icon={<SchorlarshipProjectIcon />}
-            route="/hyprep-projects/schorlarshipProgramme"
-            heading="Scholarship"
-            paragraph="The HYPREP Scholarship program is to be instituted to assist 1000 OGONI youth yearly through Tertiary schooling
-
-"
-          />
+        </div>
+        <div className="flex flex-col gap-5">
+          <h2 className="text-3xl font-merriweather font-bold pb-6">
+            Other Initiatives
+          </h2>
+          <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
+            <div className="flex flex-col gap-5 items-start justify-start">
+              <Link href="/hyprep-projects/electricityProject">
+                <a>
+                  <div className="flex flex-row gap-5 items-center font-semibold sm:text-2xl hover:text-green-600 hover:cursor-pointer justify-center">
+                    <ElectricityProjectIcon />
+                    <h1>Ogoni Electricity Project</h1>
+                  </div>
+                </a>
+              </Link>
+              <div className="flex flex-row gap-5 items-center font-semibold sm:text-2xl hover:text-green-600 hover:cursor-pointer justify-center">
+                <CenterOfExcellenceIcon />
+                <h1>Center of Excellence Project</h1>
+              </div>
+              <div className="flex flex-row gap-5 items-center font-semibold sm:text-2xl hover:text-green-600 hover:cursor-pointer justify-center">
+                <CottageHospitalIcon />
+                <h1>Cottage Hospital</h1>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 items-start justify-start">
+              <Link href="/hyprep-projects/electricityProject">
+                <a>
+                  <div className="flex flex-row gap-5 items-center font-semibold sm:text-2xl hover:text-green-600 hover:cursor-pointer justify-center">
+                    <SchorlarshipProjectIcon />
+                    <h1>Educational Support Project</h1>
+                  </div>
+                </a>
+              </Link>
+              <div className="flex flex-row gap-5 items-center font-semibold sm:text-2xl hover:text-green-600 hover:cursor-pointer justify-center">
+                <SpecialistHospitalIcon />
+                <h1>Specialist hospital</h1>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       {/* HYPREP PROJECTS END */}
       {/* HYPREP PROJECT COORDINATOR START */}
-      <section className="bg-backgroundPrimary sm:py-20 sm:px-[140px] justify-center pb-10 py-10 px-[30px] w-full sm:h-[724px] flex sm:flex-row-reverse gap-6 sm:p-[137px] flex-col-reverse">
+      <section className="bg-backgroundPrimary sm:py-20 sm:px-[140px] justify-center items-center pb-10 py-10 px-[30px] w-full sm:h-[524px] flex sm:flex-row-reverse gap-6 flex-col-reverse">
         <div className="text-left sm:h-[450px] sm:w-[520px]">
-          <h3 className="uppercase text-sm mb-6 text-textPrimary font-semibold">
+          <h3 className="uppercase text-base mb-6 text-textPrimary font-semibold">
             PROJECT CORDINATOR
           </h3>
           <p className="pb-6 text-left">
@@ -252,8 +283,14 @@ const NewsGalleryComp = () => {
       </section>
       {/* HYPREP PROJECT COORDINATOR END */}
       {/* NEWSLETTER SECTION START */}
-      <section className="pb-10 py-10 mt-20 px-[30px] w-full flex flex-row justify-center sm:p-[120px]">
-        <div className="sm:w-[1160px] w-full bg-gradient-to-r from-[#015321] to-[#00A336] sm:h-[473px] h-[100vw] text-white text-center sm:py-20 py-10 px-2 rounded-2xl flex flex-col sm:gap-16 gap-8 font-merriweather items-center justify-center ">
+      <section className="pb-10 py-10 px-[30px] w-full flex flex-row justify-center items-center">
+        <div
+          className="sm:w-[1160px] w-full bg-gradient-to-r from-[#015321] to-[#00A336] sm:h-[473px] h-[100vw] text-white text-center sm:py-20 py-10 px-2 rounded-2xl flex flex-col sm:gap-16 gap-8 font-merriweather items-center justify-center"
+          style={{
+            background: `linear-gradient(to right, #000, transparent), url(${bg.src})`,
+            backgroundPosition: "left",
+          }}
+        >
           <h3>NEWSLETTERS</h3>
           <h1 className="sm:text-4xl text-2xl font-semibold pb-2">
             Get in touch with us by subscribing to <br /> our monthly

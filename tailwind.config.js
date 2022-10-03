@@ -15,9 +15,9 @@ module.exports = {
         textLightGreen: "#11F169",
       },
       fontFamily: {
-        merriweather: "Merriweather",
-        poppins: "Poppins",
-        recoleta: "Averia Serif Libre",
+        "merriweather": ["Merriweather", "sans-serif"],
+        "poppins": ["Poppins", "sans-serif"],
+        "recoleta": ['"Averia Serif Libre"', "serif"],
       },
     },
   },

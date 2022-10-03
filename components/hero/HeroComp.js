@@ -8,7 +8,7 @@ const HeroComp = () => {
         <h2 className="uppercase text-base mb-2 text-[#00FF64]">
           federal ministry of environment
         </h2>
-        <h1 className="text-5xl text-white font-merriweather font-semibold">
+        <h1 className="sm:text-5xl text-4xl text-white font-poppins font-semibold">
           Hydrocarbon Pollution Remediation Project (HYPREP)
         </h1>
         <div className="flex gap-4">
