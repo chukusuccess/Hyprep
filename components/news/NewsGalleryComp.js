@@ -296,10 +296,10 @@ const NewsGalleryComp = () => {
             Get in touch with us by subscribing to <br /> our monthly
             Newsletters
           </h1>
-          <div className="sm:mb-12 mb-6 sm:w-[605px] w-[99%] flex flex-row">
+          <div className="sm:mb-12 mb-6 sm:w-[605px] w-[90%] flex flex-row justify-center">
             <input
               type="email"
-              placeholder="Enter your Email address"
+              placeholder="Email address"
               className="bg-white sm:px-8 px-2 sm:py-5 py-3 rounded-tl-lg rounded-bl-lg border-0 sm:w-full "
             />
             <div className="bg-white px-2 py-2 rounded-tr-lg rounded-br-lg border-0 sm:w-[170px] w-full flex flex-col items-center justify-center ">
