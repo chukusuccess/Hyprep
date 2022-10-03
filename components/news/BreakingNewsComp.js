@@ -2,8 +2,8 @@ import React from "react";
 
 const BreakingNewsComp = () => {
   return (
-    <section className="w-full flex sm:py-4 py-2 sm:gap-5 items-center">
-      <div className="z-10 bg-backgroundDark h-full px-6 py-6 sm:py-4 sm:px-10">
+    <section className="w-full flex h-[135px] sm:py-0 py-2 sm:gap-5 items-center">
+      <div className="z-10 bg-backgroundDark h-[100%] px-6 py-6 sm:py-0 sm:px-0">
         <img src="/images/brkNewsImg1.png" className="news" alt="news" />
       </div>
       <div className="flex flex-row justify-start sm:gap-5 w-full overflow-x-scroll slide">
