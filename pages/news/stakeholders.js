@@ -6,7 +6,7 @@ const StakeholdersPage = () => {
   return (
     <MainLayout>
       <div>
-        <section className="sm:py-20 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center items-start text-white">
+        <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center items-start text-white">
           <div className="text-left">
             <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
               STAKEHOLDERS PROCUREMENT

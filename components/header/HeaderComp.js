@@ -114,7 +114,7 @@ const HeaderComp = () => {
               </ul>
             </li>
             <li className="capitalize mx-2 sm:text-xl hover:text-green-600 active:text-green-600">
-              <Link href="/">
+              <Link href="/media">
                 <a> Media</a>
               </Link>
             </li>

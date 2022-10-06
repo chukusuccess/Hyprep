@@ -6,7 +6,7 @@ const Reports = () => {
   return (
     <MainLayout>
       <div className="w-full pt-12">
-        <section className="sm:py-20 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
+        <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
           <div className="text-center">
             <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
               hyprep reports
@@ -17,7 +17,7 @@ const Reports = () => {
             </h2>
           </div>
         </section>
-        <section className="sm:py-20 sm:px-20 py-10 px-[30px] w-full bg-white flex flex-col text-black">
+        <section className="sm:py-10 sm:px-20 py-10 px-[30px] w-full bg-white flex flex-col text-black">
           <div className="text-left">
             <div className="w-full flex sm:flex-row flex-col-reverse justify-between">
               <div>
@@ -60,7 +60,7 @@ const Reports = () => {
             </p>
           </div>
         </section>
-        <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center">
+        <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center">
           <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
             <CardTwo
               heading="Monthly Report"
@@ -81,7 +81,7 @@ const Reports = () => {
             </button>
           </div>
         </section>
-        <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center">
+        <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center">
           <div className="text-center mb-20">
             <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
               unep reports

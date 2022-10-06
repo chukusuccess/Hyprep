@@ -8,7 +8,7 @@ const SchorlarshipProgramme = () => {
     <Fragment>
       <MainLayout>
         <div className="w-full pt-12">
-          <section className="sm:py-20 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
+          <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
             <div className="text-left">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
@@ -22,7 +22,7 @@ const SchorlarshipProgramme = () => {
               </p>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
+          <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 THE SCHORLARSHIP PROGRAMME
@@ -79,14 +79,14 @@ const SchorlarshipProgramme = () => {
               </p>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[254px] py-10 px-[40px] w-full bg-white flex flex-col justify-center items-center">
+          <section className="sm:py-10 sm:px-[254px] py-10 px-[40px] w-full bg-white flex flex-col justify-center items-center">
             <div className="sm:h-[600px] h-[280px] w-full flex flex-row items-center justify-center sm:gap-[35px] gap-[10px]">
               <div className="hidden sm:flex sm:h-[480px] sm:w-[297px] rounded-2xl bg-noContent"></div>
               <div className="sm:h-[532px] sm:w-[297px] w-full h-full rounded-2xl bg-noContent"></div>
               <div className="hidden sm:flex sm:h-[480px] sm:w-[297px] rounded-2xl bg-noContent"></div>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center justify-center">
+          <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center justify-center">
             <div className="text-center mb-20">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 testimonials
@@ -114,7 +114,7 @@ const SchorlarshipProgramme = () => {
               />
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center">
+          <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center">
             <div className="text-center mb-20">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 Schorlarship reports

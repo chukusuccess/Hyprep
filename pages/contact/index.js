@@ -9,7 +9,7 @@ const ContactHyprep = () => {
     <Fragment>
       <MainLayout>
         <div className="w-full pt-12">
-          <section className="sm:py-20 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
+          <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
             <div className="text-left">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 contact us
@@ -20,7 +20,7 @@ const ContactHyprep = () => {
               </h2>
             </div>
           </section>
-          <section className="sm:py-20 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-row items-center justify-center text-black">
+          <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-row items-center justify-center text-black">
             <div className="flex flex-col-reverse sm:flex-row w-full gap-20">
               <div className="text-left flex flex-col justify-center gap-14 p-10 py-14 bg-gradient-to-r from-[#015321] to-[#00A336] text-white w-full sm:w-[40%] font-recoleta">
                 <div className="flex flex-row gap-5">
