@@ -265,10 +265,14 @@ const HeaderComp = () => {
                 </ul>
               </li>
               <li className="capitalize mx-2 list-none text-white hover:text-green-600">
-                ⇨ media
+                <Link href="/media">
+                  <a>⇨ Media</a>
+                </Link>
               </li>
               <li className="capitalize mx-2 list-none text-white hover:text-green-600">
-                ⇨ contact us
+                <Link href="/contact">
+                  <a>⇨ Contact Us</a>
+                </Link>
               </li>
             </div>
           </div>
