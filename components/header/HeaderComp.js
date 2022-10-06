@@ -97,13 +97,13 @@ const HeaderComp = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
-                    <a>Stakeholders Engagements</a>
+                  <Link href="/news/stakeholders">
+                    <a>Stakeholders Procurements</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
-                    <a>Procurements</a>
+                  <Link href="/news/pressrelease">
+                    <a>Press release</a>
                   </Link>
                 </li>
                 <li>
@@ -248,13 +248,13 @@ const HeaderComp = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
-                      <a>Stakeholders Engagements</a>
+                    <Link href="/news/stakeholders">
+                      <a>Stakeholders Procurements</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
-                      <a>Procurements</a>
+                    <Link href="/news/pressrelease">
+                      <a>Press release</a>
                     </Link>
                   </li>
                   <li>
