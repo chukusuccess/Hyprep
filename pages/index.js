@@ -72,7 +72,6 @@ const index = ({ posts }) => {
                 </div>
                 <div
                   className="bg-noContent sm:h-[340px] sm:w-[415px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
-                  onMouseOver="this.style.background='none'"
                   style={{
                     background: `url(${posts[1]?.attributes?.Image?.data[1]?.attributes?.url})`,
                     backgroundPosition: "center",
@@ -340,7 +339,7 @@ export default index;
 
 export async function getServerSideProps() {
   const client = new ApolloClient({
-    uri: "http://localhost:1337/graphql",
+    uri: `${process.env.NEXT_STRAPI_URL}/graphql`,
     cache: new InMemoryCache(),
   });
 

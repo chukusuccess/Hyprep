@@ -7,7 +7,7 @@ import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
 
 const client = new ApolloClient({
-  uri: "http://localhost:1337/graphql",
+  uri: `${process.env.NEXT_STRAPI_URL}/graphql`,
   cache: new InMemoryCache(),
 });
 
