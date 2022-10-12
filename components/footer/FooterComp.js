@@ -31,8 +31,8 @@ const FooterComp = () => {
             is available on our dedicated portals:
           </p>
           <p className="text-[90%]">
-            Please, visit these pages or the office at 350 Aba Road, Port
-            Harcourt for any enquiries.
+            Please, visit these pages or the office at #8 Ken Saro-Wiwa
+            (Stadium) Road, Port Harcourt for any enquiries.
           </p>
         </div>
         <div className="sm:absolute sm:right-20 sm:py-24 py-12 px-12 flex flex-col gap-10 sm:flex-row sm:justify-right sm:gap-20 text-lg font-merriweather sm:h-full">
@@ -43,10 +43,8 @@ const FooterComp = () => {
                 <h1 className="text-2xl font-bold">Our Address</h1>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, <br />
-                consectetur adipiscing elit.
-                <br /> Mauris sed donec aenean <br />
-                sed sodales blandit.
+                No. 8<br /> Ken Saro-Wiwa(Stadium Road),
+                <br /> Port Harcourt.
               </p>
             </div>
             <div>
@@ -54,14 +52,14 @@ const FooterComp = () => {
                 <Phone />
                 <h1 className="text-2xl font-bold">Phone Numbers</h1>
               </div>
-              <p>123456789</p>
+              <p>+234 816 8252 624</p>
             </div>
             <div>
               <div className="flex flex-row items-center gap-3 mb-2">
                 <Email />
                 <h1 className="text-2xl font-bold">Email Addresses</h1>
               </div>
-              <p>example@mail.com</p>
+              <p>info@hyprep.gov.ng</p>
             </div>
           </div>
           <div className="flex flex-row gap-10">
@@ -101,6 +99,13 @@ const FooterComp = () => {
           </div>
         </div>
       </div>
+      <div className="w-full h-[1px] flex flex-row items-center justify-center mt-4">
+        <div className="w-[90%] h-full bg-gray-600"></div>
+      </div>
+      <p className="font-light text-white text-center mt-5">
+        All rights reserved © Copyright 2022 | Hydrocarbon Pollution Remediation
+        Project
+      </p>
     </section>
   );
 };

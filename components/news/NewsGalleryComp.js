@@ -29,8 +29,8 @@ const NewsGalleryComp = () => {
             hyprep news
           </h3>
           <h2 className="text-3xl sm:text-4xl font-poppins font-semibold pb-6">
-            Lorem ipsum dolor sit amet, <br />
-            consectetur adipiscing elit.
+            Engage with the Latest happenings, Information, <br />
+            projects and initiatives in HYPREP.
           </h2>
         </div>
         <div className="w-full flex flex-col">
@@ -157,8 +157,11 @@ const NewsGalleryComp = () => {
             hyprep projects
           </h3>
           <h2 className="text-3xl font-merriweather font-bold pb-6">
-            Lorem ipsum dolor sit amet, <br />
-            consectetur adipiscing elit.
+            The ministry of environment is transforming
+            <br /> Ogoniland and beyond with remediation,
+            <br />
+            infrastructure and human development through
+            <br /> HYPREP.
           </h2>
         </div>
         <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">

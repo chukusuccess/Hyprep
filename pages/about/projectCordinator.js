@@ -23,16 +23,24 @@ const ProjectCordinator = () => {
                 PROJECT CORDINATION OFFICE
               </h3>
               <h2 className="text-3xl font-merriweather font-bold pb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                The PCO is headed by the Project Coordinator and it is made up
+                of seven (7) Units:
               </h2>
-              <p className="text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-                vitae proin interdum vivamus venenatis eu. Netus nisl magna
-                volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
-                varius vel volutpat integer consequat. Ultrices elit feugiat
-                amet porttitor sed enim nisl eget lorem. Tincidunt lorem ante
-                sed hendrerit. Sagittis leo turpis porttitor facilisis euismod.
-              </p>
+              <li>Environmental Remediation (Operations)</li>
+              <br />
+              <li>Livelihoods and Sustainable Development</li>
+              <br />
+              <li>Communication and Community Engagement</li>
+              <br />
+              <li>Security</li>
+              <br />
+              <li>Procurement</li>
+              <br />
+              <li>Finance and Administration</li>
+              <br />
+              <li>Legal Services</li>
+              <br />
+              <li>Monitoring and Evaluation</li>
             </div>
           </section>
           <section className="sm:py-4 sm:px-[140px] py-4 px-[30px] pb-20 sm:pb-20 items-center w-full bg-white flex flex-col">

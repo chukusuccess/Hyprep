@@ -23,16 +23,59 @@ const GoverningCouncil = () => {
                 GOVERNING COUNCIL
               </h3>
               <h2 className="text-3xl font-merriweather font-bold pb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                The Governing Council consists of:
               </h2>
-              <p className="text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-                vitae proin interdum vivamus venenatis eu. Netus nisl magna
-                volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
-                varius vel volutpat integer consequat. Ultrices elit feugiat
-                amet porttitor sed enim nisl eget lorem. Tincidunt lorem ante
-                sed hendrerit. Sagittis leo turpis porttitor facilisis euismod.
-              </p>
+              <li>Minister of Environment as chairperson</li>
+              <br />
+              <li>
+                Minister of State for Petroleum Resources/Group Managing
+                Director of Nigerian national Petroleum Corporation
+              </li>
+              <br />
+              <li>Minister of Budget and national planning</li>
+              <br />
+              <li>Minister of Niger Delta affairs</li>
+              <br />
+              <li>National Security Adviser</li>
+              <br />
+              <li>
+                Managing Director of the Niger delta development Commission
+              </li>
+              <br />
+              <li>
+                Managing Director of Shell Petroleum Development Company of
+                Nigeria (Ltd) and two alternates
+              </li>
+              <br />
+              <li>
+                One Representative of a Non-Governmental Organisation dealing
+                with environmental issues
+              </li>
+              <br />
+              <li>
+                One representative of the 9 Oil Producing States on two year
+                rotational basis
+              </li>
+              <br />
+              <li>
+                Two representatives of Ogoni communities and two alternates
+              </li>
+              <br />
+              <li>
+                Two representatives of Other Niger Delta Communities and two
+                alternates
+              </li>
+              <br />
+              <li>
+                One representative of the United Nations Environmental Programme
+                (UNEP) as observer
+              </li>
+              <br />
+              <li>
+                The Project Coordinator of the HYPREP who shall be the Secretary
+                to the HYPREP Governing Council
+              </li>
+              <br />
             </div>
           </section>
           <section className="sm:py-4 sm:px-[140px] py-4 px-[30px] pb-20 sm:pb-20 items-center w-full bg-white flex flex-col">
