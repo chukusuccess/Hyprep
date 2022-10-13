@@ -24,27 +24,39 @@ const NewsletterPage = () => {
               LATEST NEWSLETTER RELEASE
             </h3>
             <h2 className="text-3xl font-merriweather font-bold pb-6">
-              Lorem ipsum dolor sit amet, <br />
-              consectetur adipiscing elit.
+              Most recent news releases from HYPREP
             </h2>
           </div>
           <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
             <NewsCard
-              route="/"
-              heading="SEPTEMBER 2022"
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. "
+              route="http://hyprep.gov.ng/wp-content/uploads/2022/09/HYPREP-Newsletter-OCTOBER-2022.pdf"
+              heading="OCTOBER 2022"
+              paragraph="The Hydrocarbon Pollution Remediation Project (HYPREP) is
+              moving on to
+              the intertidal/shoreline remediation of the Ogoni coastal
+              communities. This signals the
+              commencement of the clean-up,
+              remediation and restoration of semicomplex and complex sites."
             />
             <NewsCard
-              route="/"
+              route="http://hyprep.gov.ng/wp-content/uploads/2022/08/HYPREP-Newsletter-SEPTEMBER-2022.pdf"
               heading="SEPTEMBER 2022"
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu.  
-"
+              paragraph="The Hydrocarbon Pollution Remediation Project (HYPREP) is
+              moving on to
+              the intertidal/shoreline remediation of the Ogoni coastal
+              communities. This signals the
+              commencement of the clean-up,
+              remediation and restoration of semicomplex and complex sites."
             />
             <NewsCard
-              route="/"
-              heading="SEPTEMBER 2022"
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. 
-"
+              route="http://hyprep.gov.ng/wp-content/uploads/2022/07/HYPREP-Newsletter-AUG-2022.pdf"
+              heading="AUGUST 2022"
+              paragraph="The Hydrocarbon Pollution Remediation Project (HYPREP) is
+              moving on to
+              the intertidal/shoreline remediation of the Ogoni coastal
+              communities. This signals the
+              commencement of the clean-up,
+              remediation and restoration of semicomplex and complex sites."
             />
           </div>
         </section>
@@ -84,6 +96,26 @@ const NewsletterPage = () => {
           </div>
           <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mt-10 mb-10">
             <NewsCard
+              route="http://hyprep.gov.ng/wp-content/uploads/2022/06/HYPREP-Newsletter-JULY-2022.pdf"
+              heading="JULY 2022"
+              paragraph="The Ogoni
+              Power Project is a sterling initiative of the Hydrocarbon Pollution Remediation Project (HYPREP), geared towards a rejuvenation of the economic potentials of Ogoniland and an enhanced livelihood of our people."
+            />
+            <NewsCard
+              route="http://hyprep.gov.ng/wp-content/uploads/2022/05/HYPREP-Newsletter-JUNE-2022.pdf"
+              heading="JUNE 2022"
+              paragraph="The Ogoni
+              Power Project is a sterling initiative of the Hydrocarbon Pollution Remediation Project (HYPREP), geared towards a rejuvenation of the economic potentials of Ogoniland and an enhanced livelihood of our people."
+            />
+            <NewsCard
+              route="http://hyprep.gov.ng/wp-content/uploads/2022/04/HYPREP-Newsletter-MAY-2022.pdf"
+              heading="MAY 2022"
+              paragraph="The Ogoni
+              Power Project is a sterling initiative of the Hydrocarbon Pollution Remediation Project (HYPREP), geared towards a rejuvenation of the economic potentials of Ogoniland and an enhanced livelihood of our people."
+            />
+          </div>
+          {/* <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
+            <NewsCard
               route="/"
               heading="SEPTEMBER 2022"
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. "
@@ -119,26 +151,7 @@ const NewsletterPage = () => {
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. 
 "
             />
-          </div>
-          <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
-            <NewsCard
-              route="/"
-              heading="SEPTEMBER 2022"
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. "
-            />
-            <NewsCard
-              route="/"
-              heading="SEPTEMBER 2022"
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu.  
-"
-            />
-            <NewsCard
-              route="/"
-              heading="SEPTEMBER 2022"
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. 
-"
-            />
-          </div>
+          </div> */}
         </section>
       </div>
     </MainLayout>
@@ -146,5 +159,3 @@ const NewsletterPage = () => {
 };
 
 export default NewsletterPage;
-
-

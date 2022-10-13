@@ -14,9 +14,8 @@ const BreakingNewsComp = () => {
           >
             <img src="/images/brkNewsImg2.png" alt="news" />
             <div className="break-words text-sm font-light text-clip text-white min-w-min">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus, repellat. Natus temporibus nulla animi earum magni.
-              Ab hic repellendus architecto.
+              Nigerian Government Reiterates Commitment On Hydrocarbon Pollution
+              Remediation Project
             </div>
           </div>
         ))}

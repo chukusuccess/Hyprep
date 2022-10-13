@@ -16,8 +16,11 @@ const PublicHealth = () => {
                 PUBLIC HEALTH
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />{" "}
-                Neque, volutpat vestibulum arcu quis eu quisque congue.{" "}
+                Investigations and evaluations of the nature, <br />
+                scope, and scale of impacts of hydrocarbon pollution on the
+                health <br />
+                of the Ogoni people, and programs to monitor, mitigate and
+                remedy the impact.
               </p>
             </div>
           </section>
@@ -27,54 +30,64 @@ const PublicHealth = () => {
                 PUBLIC HEALTH
               </h3>
               <h2 className="text-3xl font-merriweather font-bold pb-6">
-                Lorem ipsum dolor sit amet,
-                <br /> consectetur adipiscing elit.
+                HYPREP COMMENCES HEALTH SITUATION ANALYSIS/DATA COLLECTION
+                ACTIVITY
+                <br /> WITH FLAG-OFF OF FREE MEDICAL OUTREACH IN OGONI
               </h2>
               <p className="text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-                vitae proin interdum vivamus venenatis eu. Netus nisl magna
-                volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
-                varius vel volutpat integer consequat. Ultrices elit feugiat
-                amet porttitor sed enim nisl eget lorem. Tincidunt lorem ante
-                sed hendrerit. Sagittis leo turpis porttitor facilisis euismod.
-                Varius maecenas purus magna nisi, risus, sem mauris tempor.
-                Pellentesque ut tempus morbi urna vel nisi, non. Tellus vitae
-                aliquet blandit eget ut aenean eu cursus. Vestibulum vel
-                scelerisque pretium, est elit, dolor libero enim, elit.
-                Dignissim etiam nunc, egestas nibh orci. Faucibus id duis libero
-                diam vestibulum tortor, iaculis. Aenean massa feugiat turpis non
-                in nullam. Sed cursus gravida ac vel mi nibh feugiat. Sit ac
-                diam velit pharetra. Vel turpis posuere velit, ac. Turpis
-                volutpat etiam tincidunt malesuada risus dignissim est. Tortor
-                leo nunc metus tellus mollis nisi, tortor imperdiet eu.
-                Sollicitudin lorem elit eget pharetra sit at neque tortor
-                libero. Venenatis, consectetur rhoncus praesent amet quam.
-                Ultrices vitae risus, ullamcorper dolor tellus magna massa
-                varius rhoncus. Vestibulum gravida tempus odio purus tortor
-                scelerisque adipiscing non. Venenatis, massa id tempus,
-                fermentum, ut. Aliquam nulla convallis tellus velit rhoncus
-                morbi massa. Nec interdum maecenas lectus fermentum semper a
-                nunc bibendum. Aenean neque egestas et egestas sit tempus. Massa
-                nisi, rhoncus in non commodo consectetur etiam nulla maecenas.
-                Vitae ornare massa gravida et sit sit arcu duis. Luctus sed amet
-                sit sed nisl. Odio nam amet, sagittis, sed sapien, lorem sit.
-                Porta ac varius augue gravida neque. Vestibulum, scelerisque
-                nunc, hac massa, porttitor aliquam pellentesque amet. Ornare
-                nulla fermentum, viverra sit erat accumsan arcu. Viverra cursus
-                velit, euismod justo, eu nulla. Cras nunc duis cursus non vitae
-                mattis dictumst porttitor nulla. Dolor commodo sed venenatis sit
-                neque nisl odio vestibulum amet. Cras lobortis purus egestas
-                tortor purus laoreet sed scelerisque. Volutpat neque erat
-                vestibulum lectus tincidunt est justo. Libero at in morbi tellus
-                convallis. Tincidunt non at ultricies luctus pharetra. Cras
-                malesuada enim, risus eu. Tristique ut purus sodales amet.
-                Sodales fermentum ultricies dictumst nunc aliquam imperdiet
-                venenatis tempor, lectus. Ac pretium, praesent suspendisse sit
-                orci nullam tortor nulla. Quis arcu est facilisis ut sed felis.
-                Ac dictum auctor tristique leo sapien commodo. Quis amet
-                scelerisque leo, sed urna ullamcorper velit cursus. In eget
-                porttitor donec vitae, ullamcorper pellentesque morbi feugiat
-                faucibus. Sit viverra vitae tellus nunc commodo, lectus.
+                The Environmental Assessment Report released by the United
+                Nations Environment Programme on the state of the Ogoni
+                environment among other things recommends the health audit of
+                residents exposed to hydrocarbon pollution to ascertain the
+                effects of oil pollution on the health of the people. <br />
+                Pursuant to this, the Honourable Minister of Environment, Dr
+                Mohammad Mahmoud Abubakar was in Bori the Headquarters of Khana
+                to flag-off the medical outreach put together by the Hydrocarbon
+                Pollution Remediation Project (HYPREP) for the four Local
+                Government Areas of Ogoniland to collect health situation data
+                as well as treat people suffering some health challenges.
+                <br />
+                Performing the flag-off at the General Hospital in Bori, Dr
+                Abubakar said the on-going restructuring of HYPREP had ensured a
+                steady speed in 2021 by bringing on stream other key
+                recommendations and mandates of the UNEP Report”
+                <br />
+                The Honourable Minister reeled out the achievements recorded in
+                the last few months to include; the commencement of Phase 1
+                Contract for the provision of potable water in Ogoni
+                communities, flag-off of the training of five thousand Ogoni
+                youths for sustainable alternative livelihood, opening of Public
+                Health Inventory, opening of bids for Environmental Surveillance
+                and Construction of Centre of Excellence for Environmental
+                Studies/Remediation, consultancy for the Environmental
+                Surveillance and construction of the Integrated Contaminated
+                Soil Management.
+                <br />
+                Dr Abubakar disclosed that the cleanup is gaining momentum
+                following the completion of eighteen out of the twenty-one lots
+                in the Phase 1 Batch 1 contracts, while five lots in Batch 2
+                have been completed and undergoing NOSDRA certification process.
+                On the training of the five thousand youths in alternative
+                livelihood skills, the Honourable Minister revealed that the
+                training will be based on their desired choice of occupation and
+                not an imposition by HYPREP thus giving the youths engaged in
+                artisanal refining the opportunity to turn a new leaf from the
+                hazardous and illegal activity of artisanal refining.
+                <br />
+                The Honourable Minister during the commissioning of the HYPREP
+                Local Government Area Office added that the Federal Government
+                is bringing the project closer to the people of Ogoniand as a
+                commitment to the implementation of UNEP Report with the
+                involvement of Ogoni people’. He disclosed that HYPREP is
+                constructing area offices across the four LGAs in Ogoniland. He
+                assured the Ogoni people of standard work on the ongoing water
+                project being undertaken in the phase 1 of the provision of
+                potable water for Ogoni communities and water schemes located at
+                ori/Kpea Water Scheme in Khana Local Government Area,
+                Barako/B-Dere/K-Dere Water Scheme in Gokana Local Government
+                Area, Korokoro/Nonwa Water Scheme in Tai LGA, Alesa, Alesa Water
+                Scheme in Eleme Local Government Area and Ebubu/ Nsisioken/Ogale
+                Water Scehem also in Eleme LGA.
               </p>
             </div>
           </section>
@@ -92,19 +105,53 @@ const PublicHealth = () => {
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <p className="text-left mb-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-              vitae proin interdum vivamus venenatis eu. Netus nisl magna
-              volutpat volutpat est, arcu ultricies eu. Tempus sagittis, varius
-              vel volutpat integer consequat. Ultrices elit feugiat amet
-              porttitor sed enim nisl eget lorem. Tincidunt lorem ante sed
-              hendrerit. Sagittis leo turpis porttitor facilisis euismod. Varius
-              maecenas purus magna nisi, risus, sem mauris tempor. Pellentesque
-              ut tempus morbi urna vel nisi, non. Tellus vitae aliquet blandit
-              eget ut aenean eu cursus. Vestibulum vel scelerisque pretium, est
-              elit, dolor libero enim, elit. Dignissim etiam nunc, egestas nibh
-              orci. Faucibus id duis libero diam vestibulum tortor, iaculis.
-              Aenean massa feugiat turpis non in nullam. Sed cursus gravida ac
-              vel mi nibh feugiat. Sit ac diam velit pharetra.
+              Dr Abubakar further disclosed that complex and semi-complex
+              impacted sites in which groundwater remediation is required have
+              been advertised for prequalification of companies and the bids
+              opened to select competent companies for the work.
+              <br />
+              As part of measures to restore the damaged mangrove vegetation,
+              the Honourable Minister for Environment announced the constitution
+              of a joint team comprising professionals from Hydrocarbon
+              Pollution Remediation Project (HYPREP), United Nations Environment
+              Programme (UNEP), National Oil Spill Detection and Response Agency
+              (NOSDRA), the International Oil Companies (IOC’s), the Movement
+              for the Survival of the Ogoni People (MOSOP), KAGOTE and Civil
+              Society Organizations (CSO), to undertake a pre-shoreline clean-up
+              technique assessment of the mangrove sites damaged by artisanal
+              refining. The measure, he said is in line with UNEP’s
+              recommendation to stop re-pollution of remediated sites. According
+              to him ‘the stoppage of re-pollution from oil spills and
+              discharges is the pre-condition for clean-up of such areas that
+              are liable to re-pollution, otherwise, it will be an exercise in
+              futility.’ He appealed to community leaders and youths to be
+              vanguards against artisanal refining and crude oil theft that
+              constitute a major threat to the clean-up goal and reiterated the
+              commitment of the President to seeing Ogoni clean after the
+              clean-up.
+              <br />
+              Earlier in his remarks, Professor Philip Shekwolo, the Acting
+              Project Coordinator of HYPREP stated that the health audit is one
+              of the important programmes in the implementation of the UNEP
+              Report and commended Ogoni youths on their support for HYPREP.
+              <br />
+              Goodwill messages were given by prominent Ogoni stakeholders
+              including King G.N.K. Gininwa – the President of the Supreme
+              Council of Ogoni Traditional Rulers, Celestine Akpobari a
+              representative of the Civil Society on the Governing Council of
+              HYPREP, Dr Mike Nwielaghi – HYPREP BoT Chairman among others.
+              <br />
+              Other activities carried out by the Honourable Minister was the
+              commissioning of the HYPREP Area Office in Bori, flag-off of
+              training of five hundred Ogoni youths in Basic Remediation
+              Techniques and HSE and the inspection of the ongoing water scheme
+              in Alesa, Eleme LGA. In the company of the Honourable Minister for
+              Environment were the Minister of State for Budget and National
+              Planning, Prince Clem Agbah, the Honourable Minister of Niger
+              Delta Affairs represented by the Permanent Secretary in the
+              Ministry, Dr. Babayo Ardo, other members of the Governing Council,
+              Chairman BoT, Dr. Mike Nwielaghi, Chairmen of the four LGAs in
+              Ogoni among other dignitaries.
             </p>
           </section>
           <section className="sm:py-32 sm:px-[140px] py-16 px-[30px] items-center justify-center w-full bg-white flex flex-col">
@@ -123,15 +170,21 @@ const PublicHealth = () => {
             <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
               <CardTwo
                 heading="Monthly Report"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu."
+                paragraph="A focused medical study should be initiated to track the health of the Ogoni community over
+                their lifetimes to ensure any possible..."
+                report="http://hyprep.gov.ng/wp-content/uploads/2022/09/HYPREP-AUGUST-REPORT-2022.pdf"
               />
               <CardTwo
                 heading="Monthly Report"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. "
+                paragraph="A focused medical study should be initiated to track the health of the Ogoni community over
+                their lifetimes to ensure any possible..."
+                report="http://hyprep.gov.ng/wp-content/uploads/2022/08/HYPREP-JULY-REPORT-2022.pdf"
               />
               <CardTwo
                 heading="Monthly Report"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu.  "
+                paragraph="A focused medical study should be initiated to track the health of the Ogoni community over
+                their lifetimes to ensure any possible..."
+                report="http://hyprep.gov.ng/wp-content/uploads/2022/08/HYPREP-JUNE-REPORTS-2022.pdf"
               />
             </div>
             <div className="w-full mt-4 flex flex-row justify-center ">

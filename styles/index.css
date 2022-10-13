@@ -1,5 +1,7 @@
 .hero {
-  background: url("/images/heroImage.png") no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)),
+    url("/images/heroImage.png") no-repeat;
+  /* background: url("/images/heroImage.png") no-repeat; */
   background-position: center;
   background-size: cover;
 }

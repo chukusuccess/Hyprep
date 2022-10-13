@@ -13,7 +13,7 @@ export const NewsCard = (props) => {
       </div>
       <div className="w-full flex flex-row items-center justify-center">
         <div className=" bg-white p-3 rounded-[300px] hover:bg-green-600 cursor-pointer ">
-          <Link href={`${route}`}>
+          <Link href={`${route}`} target="_blank">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
