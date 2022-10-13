@@ -23,11 +23,10 @@ const PortableWater = () => {
                 PORTABLE WATER
               </h2>
               <p>
-                Provision of safe and alternative drinking water
-                <br /> for communities whose water sources were contaminated by
-                hydrocarbon pollution <br />
+                Provision of safe and alternative drinking water for communities
+                whose water sources were contaminated by hydrocarbon pollution
                 and the rehabilitation of selected existing water supply schemes
-                <br /> amongst the eight (8) Emergency Measures that warranted
+                amongst the eight (8) Emergency Measures that warranted
                 immediate action.
               </p>
             </div>

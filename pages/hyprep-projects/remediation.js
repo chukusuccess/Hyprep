@@ -16,17 +16,14 @@ const Remediation = () => {
                 REMEDIATION
               </h2>
               <p>
-                Clean-up of the hydrocarbon impacted sites,
-                <br /> restoration of artisanal refining sites and any other
-                identified polluted sites
-                <br /> in the report including the clean-up of contaminated
-                land, treatment of contaminated sediments, decontamination of
-                groundwater,
-                <br />
-                treatment of surface water, restoration of swamplands, mangrove
-                restoration and rehabilitation, surveillance, and monitoring
-                during <br />
-                and following clean-up operations in Ogoniland.
+                Clean-up of the hydrocarbon impacted sites, restoration of
+                artisanal refining sites and any other identified polluted sites
+                in the report including the clean-up of contaminated land,
+                treatment of contaminated sediments, decontamination of
+                groundwater, treatment of surface water, restoration of
+                swamplands, mangrove restoration and rehabilitation,
+                surveillance, and monitoring during and following clean-up
+                operations in Ogoniland.
               </p>
             </div>
           </section>

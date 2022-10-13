@@ -17,10 +17,9 @@ const LivelihoodProgramme = () => {
                 LIVELIHOOD PROGRAMME
               </h2>
               <p>
-                Sustainable alternative livelihood programs
-                <br /> for the Ogonis particularly those engaged in artisanal
-                refining and oil bunkering,
-                <br /> as well as other initiatives to address the
+                Sustainable alternative livelihood programs for the Ogonis
+                particularly those engaged in artisanal refining and oil
+                bunkering, as well as other initiatives to address the
                 socio-economic impacts of oil pollution.
               </p>
             </div>
