@@ -19,10 +19,10 @@ const PortableWater = () => {
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 PORTABLE WATER
               </h2>
-              <p>
+              <p className="font-light text-sm">
                 Provision of safe and alternative drinking water for communities
                 whose water sources were contaminated by hydrocarbon pollution
                 and the rehabilitation of selected existing water supply schemes

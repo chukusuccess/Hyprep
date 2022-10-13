@@ -13,10 +13,10 @@ const LivelihoodProgramme = () => {
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 LIVELIHOOD PROGRAMME
               </h2>
-              <p>
+              <p className="font-light text-sm">
                 Sustainable alternative livelihood programs for the Ogonis
                 particularly those engaged in artisanal refining and oil
                 bunkering, as well as other initiatives to address the

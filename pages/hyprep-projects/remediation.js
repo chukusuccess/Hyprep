@@ -12,10 +12,10 @@ const Remediation = () => {
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 REMEDIATION
               </h2>
-              <p>
+              <p className="font-light text-sm">
                 Clean-up of the hydrocarbon impacted sites, restoration of
                 artisanal refining sites and any other identified polluted sites
                 in the report including the clean-up of contaminated land,
