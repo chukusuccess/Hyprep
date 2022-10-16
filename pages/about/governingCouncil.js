@@ -12,7 +12,7 @@ const GoverningCouncil = () => {
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 about hyprep
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 GOVERNING COUNCIL
               </h2>
             </div>
@@ -22,7 +22,7 @@ const GoverningCouncil = () => {
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 GOVERNING COUNCIL
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 The Governing Council consists of:
               </h2>
               <li>Minister of Environment as chairperson</li>
@@ -78,18 +78,18 @@ const GoverningCouncil = () => {
               <br />
             </div>
           </section>
-          <section className="sm:py-4 sm:px-[140px] py-4 px-[30px] pb-20 sm:pb-20 items-center w-full bg-white flex flex-col">
+          <section className="sm:py-4 sm:px-[140px] py-2 px-[30px] pb-20 sm:pb-20 items-center w-full bg-white flex flex-col">
             <div className="sm:w-[1155px] sm:h-[572px] w-full h-[50vw] bg-noContent rounded-2xl "></div>
           </section>
-          <section className="bg-white w-full sm:h-[724px] flex sm:flex-row-reverse flex-col-reverse items-center justify-center gap-12 sm:p-[137px] p-[30px] pt-12">
+          <section className="bg-white w-full sm:h-[600px] flex sm:flex-row-reverse flex-col-reverse items-center justify-center gap-3 sm:gap-12 sm:px-[137px] px-[30px] pt-12">
             <div className="text-left sm:h-[450px] sm:w-[520px]">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 THE MINISTER OF ENVIRONMENT
               </h3>
-              <h2 className="text-4xl font-merriweather font-bold pb-4">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-4">
                 Mohammed H. Abdullahi
               </h2>
-              <p className="pb-10 text-left">
+              <p className="text-left">
                 Mohammed H. Abdullahi was born on 21st April, 1968 at Uke in
                 Karu Local Government Area of Nasarawa State. He had his primary
                 education at Uke Central Primary School and Government Secondary
@@ -104,7 +104,7 @@ const GoverningCouncil = () => {
               <div className="rounded-2xl bg-noContent w-[50%] h-[50vw]"></div>
             </div>
           </section>
-          <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
+          <section className="sm:px-[140px] py-5 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div>
               <p className="text-left mb-10">
                 Mr. Abdullahi started his Legal Career with Messrs Ola
@@ -140,7 +140,7 @@ const GoverningCouncil = () => {
           <section className="flex flex-grow flex-col w-full bg-white sm:py-10 sm:px-[140px] py-10 px-[30px] items-center justify-center">
             <div>
               <div className="text-left w-full">
-                <h2 className="text-3xl font-merriweather font-bold pb-6">
+                <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                   Composition of the Governing
                   <br /> Council
                 </h2>
@@ -194,7 +194,7 @@ const GoverningCouncil = () => {
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Functions of the Board of the Board of Trustee (BOT)
               </h2>
               <p className="text-left">

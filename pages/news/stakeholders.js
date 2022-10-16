@@ -11,14 +11,14 @@ const StakeholdersPage = () => {
             <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
               STAKEHOLDERS PROCUREMENT
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Lorem ipsum dolor sit amet,
               <br /> consectetur adipiscing elit.
             </h2>
             <p></p>
           </div>
         </section>
-        <section className="sm:py-12 sm:px-[140px] py-16 px-[30px] items-center w-full bg-white flex flex-col">
+        <section className="sm:py-12 sm:px-[140px] py-16 px-[30px] items-center w-full bg-backgroundPrimary flex flex-col">
           <div className="sm:w-[1155px] sm:h-[600px] w-full h-[50vw] bg-noContent rounded-2xl ">
             <div
               className="bg-noContent sm:h-full sm:w-full flex flex-col sm:gap-8 gap-1 items-start justify-end sm:p-16 w-full h-[50vw] p-3 rounded-2xl"
@@ -46,7 +46,7 @@ const StakeholdersPage = () => {
             <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
               LATEST NEWS
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Lorem ipsum dolor sit amet, <br />
               consectetur adipiscing elit.
             </h2>

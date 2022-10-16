@@ -7,7 +7,7 @@ export const ProjectCard = (props) => {
     <div className="sm:h-[423px] sm:w-[370px] border-2 border-gray-50 rounded-lg flex flex-col items-end justify-center p-10 bg-white shadow-lg ">
       <div className="sm:h-[75%] sm:w-full mb-4 flex flex-col items-start justify-between">
         <div>{icon}</div>
-        <h1 className="text-black text-2xl font-semibold font-merriweather">
+        <h1 className="text-black sm:text-3xl text-xl font-semibold font-merriweather">
           {heading}
         </h1>
         <p className="text-gray-700">{paragraph}</p>

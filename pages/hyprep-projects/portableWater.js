@@ -15,14 +15,14 @@ const PortableWater = () => {
               backgroundPosition: "left",
             }}
           >
-            <div className="text-left">
+            <div className="text-left overflow-y-scroll">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>
               <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 PORTABLE WATER
               </h2>
-              <p className="font-light text-sm">
+              <p className="font-light text-sm sm:text-base">
                 Provision of safe and alternative drinking water for communities
                 whose water sources were contaminated by hydrocarbon pollution
                 and the rehabilitation of selected existing water supply schemes
@@ -39,7 +39,7 @@ const PortableWater = () => {
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 PORTABLE WATER
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 OGONI CLEANUP: <br />
                 FG FLAGS OFF SIX WATER PROJECTS
               </h2>
@@ -152,11 +152,11 @@ const PortableWater = () => {
             <p>24th March 2021</p>
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center justify-center">
-            <div className="text-center mb-20">
+            <div className="text-center mb-10">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 portable water reports
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 MONTHLY REPORT OF <br />
                 PORTABLE WATER ACTIVITIES
               </h2>

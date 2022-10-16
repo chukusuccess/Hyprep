@@ -28,7 +28,7 @@ const NewsGalleryComp = () => {
           <h3 className="uppercase text-base mb-5 text-textPrimary font-semibold">
             hyprep news
           </h3>
-          <h2 className="text-3xl sm:text-4xl font-poppins font-semibold pb-6">
+          <h2 className="sm:text-3xl text-xl font-poppins font-semibold pb-6">
             Engage with the Latest happenings, Information, <br />
             projects and initiatives in HYPREP.
           </h2>
@@ -36,7 +36,7 @@ const NewsGalleryComp = () => {
         <div className="w-full flex flex-col">
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-4">
             <div
-              className="bg-noContent sm:h-[340px] sm:w-[718px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
+              className="bg-noContent sm:h-[340px] sm:w-[718px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl image-divs"
               style={{
                 background: `url(${tr.src})`,
                 backgroundPosition: "center",
@@ -44,10 +44,10 @@ const NewsGalleryComp = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70">
+              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70 text-sm">
                 STAKEHOLDERS ENGAGEMENT
               </h5>
-              <p className="sm:text-xl text-lg font-merriweather text-white sm:pb-6 pb-3">
+              <p className="sm:text-xl text-sm font-merriweather text-white sm:pb-6 pb-3">
                 OGONI CLEAN-UP: FG PROMISES EXPANDED IMPLEMENTATION
               </p>
               <a className="text-green-400 font-bold text-lg underline">
@@ -55,8 +55,7 @@ const NewsGalleryComp = () => {
               </a>
             </div>
             <div
-              className="bg-noContent sm:h-[340px] sm:w-[415px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
-              onMouseOver="this.style.background='none'"
+              className="bg-noContent sm:h-[340px] sm:w-[415px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl image-divs"
               style={{
                 background: `url(${tl.src})`,
                 backgroundPosition: "center",
@@ -64,10 +63,10 @@ const NewsGalleryComp = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70">
+              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70 text-sm">
                 uncategorized
               </h5>
-              <p className="sm:text-xl text-lg font-merriweather text-white sm:pb-6 pb-3">
+              <p className="sm:text-xl text-sm font-merriweather text-white sm:pb-6 pb-3">
                 HYPREP holds seminar to dissuade Ogoni youths from illegal oil
                 bunkering and re-pollution of remediated sites.
               </p>
@@ -78,7 +77,7 @@ const NewsGalleryComp = () => {
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-4">
             <div
-              className="border border-solid bg-noContent sm:h-[340px] sm:w-[415px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
+              className="border border-solid bg-noContent sm:h-[340px] sm:w-[415px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl image-divs"
               style={{
                 background: `url(${br.src})`,
                 backgroundPosition: "center",
@@ -86,10 +85,10 @@ const NewsGalleryComp = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70">
+              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70 text-sm">
                 uncategorized
               </h5>
-              <p className="sm:text-xl text-lg font-merriweather text-white sm:pb-6 pb-3">
+              <p className="sm:text-xl text-sm font-merriweather text-white sm:pb-6 pb-3">
                 Nigerian Government Reiterates Commitment On Hydrocarbon
                 Pollution Remediation Project
               </p>
@@ -98,7 +97,7 @@ const NewsGalleryComp = () => {
               </a>
             </div>
             <div
-              className="border border-solid bg-noContent sm:h-[340px] sm:w-[718px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl"
+              className="border border-solid bg-noContent sm:h-[340px] sm:w-[718px] flex flex-col items-start justify-center w-full h-[50vw] p-5 rounded-2xl image-divs"
               style={{
                 background: `url(${bl.src})`,
                 backgroundPosition: "center",
@@ -106,10 +105,10 @@ const NewsGalleryComp = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70">
+              <h5 className="uppercase text-gray-300 font-light sm:mb-4 mb-2 sm:p-3 p-2 bg-backgroundDark rounded-[100px] opacity-70 text-sm">
                 uncategorized
               </h5>
-              <p className="sm:text-xl text-lg font-merriweather text-white sm:pb-6 pb-3">
+              <p className="sm:text-xl text-sm font-merriweather text-white sm:pb-6 pb-3">
                 FIRST GC MEETING WITH BARR. MOHAMMED ABDULLAHI
               </p>
               <a className="text-green-400 font-bold text-lg underline">
@@ -125,7 +124,7 @@ const NewsGalleryComp = () => {
           <h3 className="uppercase text-base mb-5 text-textPrimary font-semibold">
             about hyprep
           </h3>
-          <h2 className="text-4xl font-merriweather font-bold pb-4">
+          <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-4">
             Restoring Environmental Sustainability, Livelihoods, Security and
             Governance in Ogoni Land.
           </h2>
@@ -156,7 +155,7 @@ const NewsGalleryComp = () => {
           <h3 className="uppercase text-base mb-5 text-textPrimary font-semibold">
             hyprep projects
           </h3>
-          <h2 className="text-3xl font-merriweather font-bold pb-6">
+          <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
             The ministry of environment is transforming
             <br /> Ogoniland and beyond with remediation,
             <br />
@@ -199,7 +198,7 @@ const NewsGalleryComp = () => {
           />
         </div>
         <div className="flex flex-col gap-5">
-          <h2 className="text-3xl font-merriweather font-bold pb-6">
+          <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
             Other Initiatives
           </h2>
           <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
@@ -256,7 +255,7 @@ const NewsGalleryComp = () => {
             removal of contaminants of concern from several impacted sites which
             dot the landscape.
           </p>
-          <h2 className="text-3xl font-merriweather font-semibold pb-2">
+          <h2 className="sm:text-3xl text-xl font-merriweather font-semibold pb-2">
             Dr. Ferdinand Giadom Project Coordination, HYPREP
           </h2>
           <button className="px-8 py-4 rounded-lg bg-green-700 text-white">
@@ -295,7 +294,7 @@ const NewsGalleryComp = () => {
           }}
         >
           <h3>NEWSLETTERS</h3>
-          <h1 className="sm:text-4xl text-2xl font-semibold pb-2">
+          <h1 className="sm:text-3xl text-xl font-semibold pb-2">
             Get in touch with us by subscribing to <br /> our monthly
             Newsletters
           </h1>

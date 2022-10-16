@@ -12,7 +12,7 @@ const AboutHyprep = () => {
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 about hyprep
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Hydrocarbon Pollution Remediation Project (HYPREP)
               </h2>
             </div>
@@ -22,7 +22,7 @@ const AboutHyprep = () => {
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 ABOUT HYPREP
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Restoring Environmental SUSTAINABILITY, LIVELIHOODS, <br />{" "}
                 SECURITY AND GOVERNANCE IN OGONI LAND
               </h2>
@@ -64,7 +64,7 @@ const AboutHyprep = () => {
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 board of trustees
               </h3>
-              <h2 className="text-4xl font-merriweather font-bold pb-4">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-4">
                 Chairman Board of Trustees (HYPREP)
               </h2>
               <p className="pb-10 text-left">
@@ -85,7 +85,7 @@ const AboutHyprep = () => {
           <section className="flex flex-col w-full bg-backgroundPrimary sm:py-10 sm:px-[140px] py-10 px-[30px] items-center justify-center">
             <div>
               <div className="text-left w-full">
-                <h2 className="text-3xl font-merriweather font-bold pb-6">
+                <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                   Composition of the Board of
                   <br /> Trustees
                 </h2>
@@ -139,7 +139,7 @@ const AboutHyprep = () => {
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Functions of the Board of the Board of Trustee (BOT)
               </h2>
               <p className="text-left">

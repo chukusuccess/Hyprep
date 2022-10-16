@@ -37,29 +37,29 @@ const FooterComp = () => {
         </div>
         <div className="sm:absolute sm:right-20 sm:py-24 py-12 px-12 flex flex-col gap-10 sm:flex-row sm:justify-right sm:gap-20 text-lg font-merriweather sm:h-full">
           <div className="text-white font-light text-sm flex flex-col gap-10">
-            <div>
-              <div className="flex flex-row items-center gap-3 mb-2">
-                <Location />
+            <div className="flex flex-row items-center gap-3 mb-2">
+              <Location />
+              <div>
                 <h1 className="text-2xl font-bold">Our Address</h1>
+                <p>
+                  No. 8<br /> Ken Saro-Wiwa(Stadium Road),
+                  <br /> Port Harcourt.
+                </p>
               </div>
-              <p>
-                No. 8<br /> Ken Saro-Wiwa(Stadium Road),
-                <br /> Port Harcourt.
-              </p>
             </div>
-            <div>
-              <div className="flex flex-row items-center gap-3 mb-2">
-                <Phone />
+            <div className="flex flex-row items-center gap-3 mb-2">
+              <Phone />
+              <div>
                 <h1 className="text-2xl font-bold">Phone Numbers</h1>
+                <p>+234 816 8252 624</p>
               </div>
-              <p>+234 816 8252 624</p>
             </div>
-            <div>
-              <div className="flex flex-row items-center gap-3 mb-2">
-                <Email />
+            <div className="flex flex-row items-center gap-3 mb-2">
+              <Email />
+              <div>
                 <h1 className="text-2xl font-bold">Email Addresses</h1>
+                <p>info@hyprep.gov.ng</p>
               </div>
-              <p>info@hyprep.gov.ng</p>
             </div>
           </div>
           <div className="flex flex-row gap-10">

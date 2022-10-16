@@ -8,14 +8,14 @@ const PublicHealth = () => {
       <MainLayout>
         <div className="w-full pt-12">
           <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
-            <div className="text-left">
+            <div className="text-left overflow-y-scroll">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>
               <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 PUBLIC HEALTH
               </h2>
-              <p className="font-light text-sm">
+              <p className="font-light text-sm sm:text-base">
                 Investigations and evaluations of the nature, <br />
                 scope, and scale of impacts of hydrocarbon pollution on the
                 health <br />
@@ -29,7 +29,7 @@ const PublicHealth = () => {
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 PUBLIC HEALTH
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 HYPREP COMMENCES HEALTH SITUATION ANALYSIS/DATA COLLECTION
                 ACTIVITY
                 <br /> WITH FLAG-OFF OF FREE MEDICAL OUTREACH IN OGONI
@@ -104,7 +104,7 @@ const PublicHealth = () => {
             </div>
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
-            <p className="text-left mb-10">
+            <p className="text-left">
               Dr Abubakar further disclosed that complex and semi-complex
               impacted sites in which groundwater remediation is required have
               been advertised for prequalification of companies and the bids
@@ -154,15 +154,15 @@ const PublicHealth = () => {
               Ogoni among other dignitaries.
             </p>
           </section>
-          <section className="sm:py-32 sm:px-[140px] py-16 px-[30px] items-center justify-center w-full bg-white flex flex-col">
+          <section className="sm:py-16 sm:px-[140px] py-6 px-[30px] items-center justify-center w-full bg-white flex flex-col">
             <div className="sm:w-[1155px] sm:h-[372px] w-full h-[50vw] bg-noContent rounded-2xl "></div>
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center justify-center">
-            <div className="text-center mb-20">
+            <div className="text-center mb-10">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 PublicHealth reports
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet, <br />
                 consectetur adipiscing elit.
               </h2>

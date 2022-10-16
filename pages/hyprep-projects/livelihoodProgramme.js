@@ -9,14 +9,14 @@ const LivelihoodProgramme = () => {
       <MainLayout>
         <div className="w-full pt-12">
           <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
-            <div className="text-left">
+            <div className="text-left overflow-y-scroll">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>
               <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 LIVELIHOOD PROGRAMME
               </h2>
-              <p className="font-light text-sm">
+              <p className="font-light text-sm sm:text-base">
                 Sustainable alternative livelihood programs for the Ogonis
                 particularly those engaged in artisanal refining and oil
                 bunkering, as well as other initiatives to address the
@@ -41,7 +41,7 @@ const LivelihoodProgramme = () => {
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 LIVELIHOOD
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet,
                 <br /> consectetur adipiscing elit.
               </h2>
@@ -94,11 +94,11 @@ const LivelihoodProgramme = () => {
             </div>
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center">
-            <div className="text-center mb-20">
+            <div className="text-center mb-10">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 testimonials
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet, <br />
                 consectetur adipiscing elit.
               </h2>
@@ -122,11 +122,11 @@ const LivelihoodProgramme = () => {
             </div>
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center">
-            <div className="text-center mb-20">
+            <div className="text-center mb-10">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 Electricity reports
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet, <br />
                 consectetur adipiscing elit.
               </h2>

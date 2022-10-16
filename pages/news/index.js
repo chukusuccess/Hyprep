@@ -11,7 +11,7 @@ const NewsletterPage = () => {
             <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
               NEWSLETTERS
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Lorem ipsum dolor sit amet,
               <br /> consectetur adipiscing elit.
             </h2>
@@ -23,7 +23,7 @@ const NewsletterPage = () => {
             <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
               LATEST NEWSLETTER RELEASE
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Most recent news releases from HYPREP
             </h2>
           </div>
@@ -67,7 +67,7 @@ const NewsletterPage = () => {
                 <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                   OLDER NEWSLETTER RELEASE
                 </h3>
-                <h2 className="text-3xl font-merriweather font-bold pb-6">
+                <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                   Lorem ipsum dolor sit amet,
                   <br /> consectetur adipiscing elit.
                 </h2>

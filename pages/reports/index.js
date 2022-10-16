@@ -11,7 +11,7 @@ const Reports = () => {
             <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
               hyprep reports
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Lorem ipsum dolor sit amet,
               <br /> consectetur adipiscing elit.
             </h2>
@@ -24,7 +24,7 @@ const Reports = () => {
                 <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                   MONTHLY REPORTS
                 </h3>
-                <h2 className="text-3xl font-merriweather font-bold pb-6">
+                <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                   Lorem ipsum dolor sit amet,
                   <br /> consectetur adipiscing elit.
                 </h2>
@@ -82,11 +82,11 @@ const Reports = () => {
           </div>
         </section>
         <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center">
-          <div className="text-center mb-20">
+          <div className="text-center mb-10">
             <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
               unep reports
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Lorem ipsum dolor sit amet, <br />
               consectetur adipiscing elit.
             </h2>

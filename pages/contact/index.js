@@ -14,9 +14,9 @@ const ContactHyprep = () => {
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 contact us
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
-                Lorem ipsum dolor sit amet,
-                <br /> consectetur adipiscing elit.
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
+                Hydrocarbon Pollution Remediation Project
+                <br /> (HYPREP)
               </h2>
             </div>
           </section>
@@ -30,8 +30,12 @@ const ContactHyprep = () => {
                   <div className="flex flex-col gap-2">
                     <h1 className="text-2xl font-bold">Our Address</h1>
                     <p className="font-light">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris sed donec aenean sed sodales blandit.
+                      No. 8 <br />
+                      Ken Saro Wiwa (Stadium) Road
+                      <br />
+                      Port-Harcourt, Rivers State
+                      <br />
+                      Nigeria
                     </p>
                   </div>
                 </div>
@@ -41,8 +45,7 @@ const ContactHyprep = () => {
                   </div>
                   <div className="flex flex-col gap-2">
                     <h1 className="text-2xl font-bold">Email Addresses</h1>
-                    <p className="font-light">Info@doxhub.com</p>
-                    <p>Doxhub.com</p>
+                    <p className="font-light">info@hyprep.gov.ng</p>
                   </div>
                 </div>
                 <div className="flex flex-row gap-5">
@@ -51,17 +54,16 @@ const ContactHyprep = () => {
                   </div>
                   <div className="flex flex-col gap-2">
                     <h1 className="text-2xl font-bold">Phone Numbers</h1>
-                    <p className="font-light">08012232321</p>
-                    <p>+23489764521</p>
+                    <p className="font-light">08168252624</p>
+                    <p>+2348168252624</p>
                   </div>
                 </div>
               </div>
               <div className="text-left text-white w-full sm:w-[60%]">
                 <div className="w-full flex flex-col">
-                  <h1 className="font-bold text-black text-2xl">Contact Us</h1>
+                  <h1 className="font-bold text-black text-xl">Contact Us</h1>
                   <p className="text-gray-800 pb-4 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec
-                    quam magna mi amet, integer.
+                    HYPREP welcomes your inquiries and feedback
                   </p>
                   <form className="flex flex-col gap-5 text-black">
                     <div className="flex-col">

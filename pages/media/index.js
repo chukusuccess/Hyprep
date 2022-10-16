@@ -10,7 +10,7 @@ const Media = () => {
             <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
               media
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Lorem ipsum dolor sit amet,
               <br /> consectetur adipiscing elit.
             </h2>
@@ -22,7 +22,7 @@ const Media = () => {
             <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
               images
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Lorem ipsum dolor sit amet, <br />
               consectetur adipiscing elit.
             </h2>
@@ -61,7 +61,7 @@ const Media = () => {
             <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
               videos
             </h3>
-            <h2 className="text-3xl font-merriweather font-bold pb-6">
+            <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
               Lorem ipsum dolor sit amet, <br />
               consectetur adipiscing elit.
             </h2>

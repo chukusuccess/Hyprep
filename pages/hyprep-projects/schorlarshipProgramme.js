@@ -9,14 +9,14 @@ const SchorlarshipProgramme = () => {
       <MainLayout>
         <div className="w-full pt-12">
           <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
-            <div className="text-left">
+            <div className="text-left overflow-y-scroll">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>
               <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 SCHORLARSHIP PROGRAMME
               </h2>
-              <p className="font-light text-sm">
+              <p className="font-light text-sm sm:text-base">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />{" "}
                 Neque, volutpat vestibulum arcu quis eu quisque congue.{" "}
               </p>
@@ -27,7 +27,7 @@ const SchorlarshipProgramme = () => {
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 THE SCHORLARSHIP PROGRAMME
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet,
                 <br /> consectetur adipiscing elit.
               </h2>
@@ -79,19 +79,19 @@ const SchorlarshipProgramme = () => {
               </p>
             </div>
           </section>
-          <section className="sm:py-10 sm:px-[254px] py-10 px-[40px] w-full bg-white flex flex-col justify-center items-center">
+          <section className="sm:px-[254px] py-10 px-[40px] w-full bg-white flex flex-col justify-center items-center">
             <div className="sm:h-[600px] h-[280px] w-full flex flex-row items-center justify-center sm:gap-[35px] gap-[10px]">
               <div className="hidden sm:flex sm:h-[480px] sm:w-[297px] rounded-2xl bg-noContent"></div>
               <div className="sm:h-[532px] sm:w-[297px] w-full h-full rounded-2xl bg-noContent"></div>
               <div className="hidden sm:flex sm:h-[480px] sm:w-[297px] rounded-2xl bg-noContent"></div>
             </div>
           </section>
-          <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center justify-center">
-            <div className="text-center mb-20">
+          <section className="sm:px-[140px] py-10 px-[30px] w-full bg-backgroundPrimary flex flex-col items-center justify-center">
+            <div className="text-center mb-10">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 testimonials
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet, <br />
                 consectetur adipiscing elit.
               </h2>
@@ -114,12 +114,12 @@ const SchorlarshipProgramme = () => {
               />
             </div>
           </section>
-          <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center">
-            <div className="text-center mb-20">
+          <section className="sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center">
+            <div className="text-center mb-10">
               <h3 className="uppercase text-sm mb-5 text-textPrimary font-semibold">
                 Schorlarship reports
               </h3>
-              <h2 className="text-3xl font-merriweather font-bold pb-6">
+              <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
                 Lorem ipsum dolor sit amet, <br />
                 consectetur adipiscing elit.
               </h2>
