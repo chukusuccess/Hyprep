@@ -122,25 +122,24 @@ const LivelihoodProgramme = () => {
                 testimonials
               </h3>
               <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
-                Lorem ipsum dolor sit amet, <br />
-                consectetur adipiscing elit.
+                Progress Recorded by the Cooperatives
               </h2>
             </div>
             <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
               <CardOne
-                heading="Belema George"
-                subheading="Product Designer, TRONIX LABS"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. Netus nisl magna volutpat volutpat est, arcu ultricies eu. "
+                heading="Co-operative"
+                subheading="HYPREP"
+                paragraph="Training is ongoing, and the distribution of items still in progress. It is important to note that the birds and cucumber seeds distributed in most of the farms have grown and are being harvested."
               />
               <CardOne
-                heading="Belema George"
-                subheading="Product Designer, TRONIX LABS"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. Netus nisl magna volutpat volutpat est, arcu ultricies eu. "
+                heading="Co-operative"
+                subheading="HYPREP"
+                paragraph="Training is ongoing, and the distribution of items still in progress. It is important to note that the birds and cucumber seeds distributed in most of the farms have grown and are being harvested."
               />
               <CardOne
-                heading="Belema George"
-                subheading="Product Designer, TRONIX LABS"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. Netus nisl magna volutpat volutpat est, arcu ultricies eu. "
+                heading="Co-operative"
+                subheading="HYPREP"
+                paragraph="Training is ongoing, and the distribution of items still in progress. It is important to note that the birds and cucumber seeds distributed in most of the farms have grown and are being harvested."
               />
             </div>
           </section>
@@ -150,22 +149,25 @@ const LivelihoodProgramme = () => {
                 Livelihood reports
               </h3>
               <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-6">
-                Lorem ipsum dolor sit amet, <br />
-                consectetur adipiscing elit.
+                Key Accomplishments
               </h2>
             </div>
             <div className="flex sm:flex-row flex-col sm:gap-10 gap-5 mb-10">
               <CardTwo
-                heading="Monthly Report"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu."
+                heading="February 2022"
+                paragraph="The Livelihood report for the month of February 2021 covers follow-up activities on the 20 Cooperatives set up for 400 Ogoni women trained in Agribusiness and Entrepreneurial Skills as reported in the month of January 2021."
+                report="https://hyprep.gov.ng/wp-content/uploads/2022/04/LIVILIHOOD-REPORT-FEBRUARY-2022.pdf"
               />
               <CardTwo
-                heading="Monthly Report"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu. "
+                heading="March 2022"
+                paragraph="The Livelihood report for the month of February 2021 covers follow-up activities on the 20 Cooperatives set up for 400 Ogoni women trained in Agribusiness and Entrepreneurial Skills as reported in the month of January 2021."
+                report="https://hyprep.gov.ng/wp-content/uploads/2022/04/LIVELIHOOD-REPORT-FOR-MARCH-2022.pdf"
               />
+
               <CardTwo
-                heading="Monthly Report"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vitae proin interdum vivamus venenatis eu.  "
+                heading="April 2022"
+                paragraph="The Livelihood report for the month of February 2021 covers follow-up activities on the 20 Cooperatives set up for 400 Ogoni women trained in Agribusiness and Entrepreneurial Skills as reported in the month of January 2021."
+                report="https://hyprep.gov.ng/wp-content/uploads/2022/05/LIVELIHOOD-REPORT-FOR-APRIL-2022.pdf"
               />
             </div>
             <div className="w-full mt-4 flex flex-row justify-center ">
