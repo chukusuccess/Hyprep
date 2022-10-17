@@ -8,7 +8,7 @@ const Remediation = () => {
       <MainLayout>
         <div className="w-full pt-12">
           <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
-            <div className="text-left overflow-y-scroll">
+            <div className="text-left overflow-y-hidden">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>

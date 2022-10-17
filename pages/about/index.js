@@ -1,7 +1,10 @@
 import React, { Fragment } from "react";
 import MainLayout from "../../layout/MainLayout";
 import { AboutCard } from "../../components/AboutCard";
+const chairman =
+  "https://hyprep.gov.ng/wp-content/uploads/2021/04/WhatsApp-Image-2021-04-16-at-1.16.35-PM.jpeg";
 
+  
 const AboutHyprep = () => {
   return (
     <Fragment>
@@ -77,9 +80,25 @@ const AboutHyprep = () => {
                 Varius maecenas purus magna nisi, risus, sem mauris tempor.
               </p>
             </div>
-            <div className="hidden sm:flex rounded-2xl bg-noContent sm:h-[433px] sm:w-[509px]"></div>
+            <div
+              className="hidden sm:flex rounded-2xl bg-noContent sm:h-[433px] sm:w-[509px]"
+              style={{
+                background: `url(${chairman})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            ></div>
             <div className="sm:hidden w-full flex flex-row items-start justify-start">
-              <div className="rounded-2xl bg-noContent w-[50%] h-[50vw]"></div>
+              <div
+                className="rounded-2xl bg-noContent w-[50%] h-[50vw]"
+                style={{
+                  background: `url(${chairman})`,
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
             </div>
           </section>
           <section className="flex flex-col w-full bg-backgroundPrimary sm:py-10 sm:px-[140px] py-10 px-[30px] items-center justify-center">

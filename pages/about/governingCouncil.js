@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import MainLayout from "../../layout/MainLayout";
 import { AboutCard } from "../../components/AboutCard";
+const mohammed =
+  "https://hyprep.gov.ng/wp-content/uploads/2022/04/minister-for-environment.png";
 
 const GoverningCouncil = () => {
   return (
@@ -99,9 +101,25 @@ const GoverningCouncil = () => {
                 Bar in 1991.
               </p>
             </div>
-            <div className="hidden sm:flex rounded-2xl bg-noContent sm:h-[433px] sm:w-[509px]"></div>
+            <div
+              className="hidden sm:flex rounded-2xl bg-noContent sm:h-[433px] sm:w-[509px]"
+              style={{
+                background: `url(${mohammed})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            ></div>
             <div className="sm:hidden w-full flex flex-row items-start justify-start">
-              <div className="rounded-2xl bg-noContent w-[50%] h-[50vw]"></div>
+              <div
+                className="rounded-2xl bg-noContent w-[50%] h-[50vw]"
+                style={{
+                  background: `url(${mohammed})`,
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
             </div>
           </section>
           <section className="sm:px-[140px] py-5 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">

@@ -15,7 +15,7 @@ const PortableWater = () => {
               backgroundPosition: "left",
             }}
           >
-            <div className="text-left overflow-y-scroll">
+            <div className="text-left overflow-y-hidden">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
               </h3>
