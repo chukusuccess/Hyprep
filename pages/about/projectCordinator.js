@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import MainLayout from "../../layout/MainLayout";
 import { AboutCard } from "../../components/AboutCard";
+const pco = "https://hyprep.gov.ng/wp-content/uploads/2022/03/NEW-PC-PIC.png";
 
 const ProjectCordinator = () => {
   return (
@@ -52,23 +53,42 @@ const ProjectCordinator = () => {
                 PROJECT CORDINATOR
               </h3>
               <h2 className="sm:text-3xl text-xl font-merriweather font-bold pb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Dr. Ferdinand Giadom Project Coordination, HYPREP
               </h2>
               <p className="text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-                vitae proin interdum vivamus venenatis eu. Netus nisl magna
-                volutpat volutpat est, arcu ultricies eu. Tempus sagittis,
-                varius vel volutpat integer consequat. Ultrices elit feugiat
-                amet porttitor sed enim nisl eget lorem. Tincidunt lorem ante
-                sed hendrerit. Sagittis leo turpis porttitor facilisis euismod.
+                As the World commemorates the Environment. We at HYPREP join in
+                the celebration to promote the consciousness of man’s
+                custodianship of the Earth. This was, and remains God’s mandate
+                to man. Today we mark the theme: ‘Only One Earth’, which brings
+                into a sharp relief the fact that mankind has no where else to
+                go. This is our only home and we have to make it continuously,
+                liveable! HYPREP in carrying out her mandate is poised towards
+                making Ogoni liveable, through the removal of contaminants of
+                concern from several impacted sites which dot the landscape.
               </p>
             </div>
-            <div className="hidden sm:flex rounded-2xl bg-noContent sm:h-[433px] sm:w-[509px]"></div>
+            <div
+              className="hidden sm:flex rounded-2xl bg-noContent sm:h-[433px] sm:w-[509px]"
+              style={{
+                background: `url(${pco})`,
+                backgroundPosition: "top",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            ></div>
             <div className="sm:hidden w-full flex flex-row items-start justify-start">
-              <div className="rounded-2xl bg-noContent w-[50%] h-[50vw]"></div>
+              <div
+                className="rounded-2xl bg-noContent w-[50%] h-[50vw]"
+                style={{
+                  background: `url(${pco})`,
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
             </div>
           </section>
-          <section className="sm:px-[140px] py-5 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
+          {/* <section className="sm:px-[140px] py-5 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <p className="text-left mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
               vitae proin interdum vivamus venenatis eu. Netus nisl magna
@@ -100,7 +120,7 @@ const ProjectCordinator = () => {
               magna massa varius rhoncus. Vestibulum gravida tempus odio purus
               tortor scelerisque adipiscing non.
             </p>
-          </section>
+          </section> */}
           <section className="flex flex-grow flex-col w-full bg-white sm:py-10 sm:px-[140px] py-10 px-[30px] items-center justify-center">
             <div>
               <div className="text-left w-full">

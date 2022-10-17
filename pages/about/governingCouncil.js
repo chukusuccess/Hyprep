@@ -105,7 +105,7 @@ const GoverningCouncil = () => {
               className="hidden sm:flex rounded-2xl bg-noContent sm:h-[433px] sm:w-[509px]"
               style={{
                 background: `url(${mohammed})`,
-                backgroundPosition: "center",
+                backgroundPosition: "top",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
               }}
