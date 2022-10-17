@@ -3,14 +3,22 @@ import MainLayout from "../../layout/MainLayout";
 import { AboutCard } from "../../components/AboutCard";
 const chairman =
   "https://hyprep.gov.ng/wp-content/uploads/2021/04/WhatsApp-Image-2021-04-16-at-1.16.35-PM.jpeg";
+const about = "https://hyprep.gov.ng/wp-content/uploads/2022/07/DSC_0804.jpg";
 
-  
 const AboutHyprep = () => {
   return (
     <Fragment>
       <MainLayout>
         <div className="w-full pt-12">
-          <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
+          <section
+            className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white"
+            style={{
+              background: `linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${about})`,
+              backgroundPosition: "top",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
             <div className="text-center">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 about hyprep

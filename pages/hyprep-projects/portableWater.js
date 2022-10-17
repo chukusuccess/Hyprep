@@ -2,6 +2,10 @@ import React, { Fragment } from "react";
 import { CardTwo } from "../../components/Card-two";
 import MainLayout from "../../layout/MainLayout";
 import bg from "../../public/images/portablewaterbg.png";
+const flagoff = "https://hyprep.gov.ng/wp-content/uploads/2022/03/WATER-1.png";
+const mob = "https://hyprep.gov.ng/wp-content/uploads/2022/03/WATER-2.png";
+const des = "https://hyprep.gov.ng/wp-content/uploads/2022/03/WATER-3.png";
+const des2 = "https://hyprep.gov.ng/wp-content/uploads/2022/03/WATER-4.png";
 
 const PortableWater = () => {
   return (
@@ -13,6 +17,8 @@ const PortableWater = () => {
             style={{
               background: `linear-gradient(to right, #000, transparent), url(${bg.src})`,
               backgroundPosition: "left",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
             }}
           >
             <div className="text-left overflow-y-hidden">
@@ -32,7 +38,15 @@ const PortableWater = () => {
             </div>
           </section>
           <section className="sm:py-32 sm:px-[140px] py-16 px-[30px] items-center w-full bg-white flex flex-col">
-            <div className="sm:w-[1155px] sm:h-[372px] w-full h-[50vw] bg-noContent rounded-2xl "></div>
+            <div
+              className="sm:w-[1155px] sm:h-[372px] w-full h-[50vw] bg-noContent rounded-2xl "
+              style={{
+                background: `url(${flagoff})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            ></div>
           </section>
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center text-black">
             <div className="text-left">
@@ -96,12 +110,44 @@ const PortableWater = () => {
           <section className="sm:py-10 sm:px-[140px] py-10 px-[30px] w-full bg-white flex flex-col items-center justify-center">
             <div className="sm:h-[663px] h-[331px] w-full flex flex-row-reverse items-center justify-center sm:gap-[35px] gap-[17px]">
               {/* this div below is for the mobile image */}
-              <div className="sm:hidden h-full sm:w-[479px] w-[100%] rounded-2xl bg-noContent"></div>
+              <div
+                className="sm:hidden h-full sm:w-[479px] w-[100%] rounded-2xl bg-noContent"
+                style={{
+                  background: `url(${mob})`,
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
               {/* the div below is for desktop images */}
-              <div className="hidden sm:flex h-full sm:w-[479px] w-[238px] rounded-2xl bg-noContent"></div>
+              <div
+                className="hidden sm:flex h-full sm:w-[479px] w-[238px] rounded-2xl bg-noContent"
+                style={{
+                  background: `url(${mob})`,
+                  backgroundPosition: "right",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
+              ></div>
               <div className="hidden h-full sm:w-[646px] w-[323px] sm:flex flex-col sm:gap-10 gap-5">
-                <div className="h-full w-full rounded-2xl bg-noContent"></div>
-                <div className="h-full w-full rounded-2xl bg-noContent"></div>
+                <div
+                  className="h-full w-full rounded-2xl bg-noContent"
+                  style={{
+                    background: `url(${des})`,
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                ></div>
+                <div
+                  className="h-full w-full rounded-2xl bg-noContent"
+                  style={{
+                    background: `url(${des2})`,
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                ></div>
               </div>
             </div>
           </section>

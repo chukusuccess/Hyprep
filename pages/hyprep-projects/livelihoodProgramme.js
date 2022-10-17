@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { CardOne } from "../../components/Card-one";
 import { CardTwo } from "../../components/Card-two";
 import MainLayout from "../../layout/MainLayout";
+import bg from "../../public/images/hypreplivlihood.jpg";
 const birds =
   "https://hyprep.gov.ng/wp-content/uploads/2021/05/live1-768x1024.jpg";
 const meeting =
@@ -13,7 +14,15 @@ const LivelihoodProgramme = () => {
     <Fragment>
       <MainLayout>
         <div className="w-full pt-12">
-          <section className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white">
+          <section
+            className="sm:py-10 sm:px-20 py-10 px-10 w-full sm:h-[551px] h-[275px] bg-backgroundDark flex flex-col justify-center text-white"
+            style={{
+              background: `linear-gradient(to right, #000, transparent), url(${bg.src})`,
+              backgroundPosition: "left",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
             <div className="text-left overflow-y-hidden">
               <h3 className="uppercase text-sm mb-5 text-textLightGreen font-semibold">
                 hyprep projects
