@@ -113,6 +113,30 @@ const LivelihoodProgramme = () => {
                 training programme. The distribution of the support items was
                 carried out in conjunction with our implementing partner, the
                 United Nations Institute for Training and Research (UNITAR).
+                <br />
+                <br />
+                <b> Interactive Session with Ogoni Youth Leaders</b>
+                <br />
+                Following the launch of the Needs Assessment forms by the Hon.
+                Minister for Environment, the Project Coordination Office (PCO)
+                on Thursday, March 25, 2021 had an interactive session with
+                Youth Leaders from the four (4) Local Government Areas of Ogoni
+                during which strategies for a successful distribution of the
+                forms were discussed and mapped out.
+                <br />
+                On behalf of the group, the Leader, Mr. Sunny Bekawan thanked
+                the Management of HYPREP for the consideration of giving the
+                youths the opportunity to partake in the Needs Assessment
+                exercise. They promised to support the current leadership of
+                HYPREP to achieve its mandate to clean Ogoniland of oil
+                pollution and to restore the livelihoods of the people.
+                <br />
+                The Head of Operations overseeing the PCO, Prof. Philip Shekwolo
+                urged the leaders, whom he described as critical stakeholders of
+                the project, to close ranks by coming together to form a united
+                front, in order to achieve their expectations and also meet the
+                desire of the Ogonis by continuously contributing positively to
+                the Cleanup project.
               </p>
             </div>
           </section>
