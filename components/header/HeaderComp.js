@@ -98,7 +98,7 @@ const HeaderComp = () => {
                 </li>
                 <li>
                   <Link href="/news/stakeholders">
-                    <a>Stakeholders Procurements</a>
+                    <a>Stakeholders Engagements</a>
                   </Link>
                 </li>
                 <li>
@@ -249,7 +249,7 @@ const HeaderComp = () => {
                   </li>
                   <li>
                     <Link href="/news/stakeholders">
-                      <a>Stakeholders Procurements</a>
+                      <a>Stakeholders Engagements</a>
                     </Link>
                   </li>
                   <li>
